@@ -99962,10 +99962,7 @@ body .page {
     outline: none;
 }
 
-.section:not(.page) {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
+
 
 .section .section-title {
     text-align: center;
@@ -116377,10 +116374,6 @@ body .page {
     outline: none;
 }
 
-.section:not(.page) {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
 
 .section .section-title {
     text-align: center;
@@ -116562,14 +116555,17 @@ html[dir="rtl"] .section .text-box-block .subtitle::before {
 }
 
 #app-inner {
-    min-height: 100vh;
     width: 100%;
     color: hsl(var(--t-color-two));
     font-family: var(--body-font-family);
     line-height: 1.5rem;
-    padding-top: var(--space-above-hero);
     overflow-x: hidden;
 
+}
+
+footer.footer.position-relative {
+    BACKGROUND: border-box;
+    margin-top: 10vh;
 }
 
 html[dir="ltr"] #app-inner {
@@ -122652,12 +122648,10 @@ html[dir="rtl"] .section .text-box-block .subtitle::before {
 }
 
 #app-inner {
-    min-height: 100vh;
     width: 100%;
     color: hsl(var(--t-color-two));
     font-family: var(--body-font-family);
     line-height: 1.5rem;
-    padding-top: var(--space-above-hero);
     overflow-x: hidden;
 
 }
@@ -126885,3 +126879,5 @@ html[dir="rtl"] .contact__form .phone-number .prefix-icon {
     font-size: 1.125rem;
     margin-bottom: 2rem;
 }
+
+
