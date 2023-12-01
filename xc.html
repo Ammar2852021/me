@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <input type="text" id="myInput" placeholder="أدخل القيمة">
+  <button onclick="saveValue()">حفظ</button>
+  <h2 id="output"></h2>
+
+  <script>
+    function saveValue() {
+      var input = document.getElementById("myInput").value;
+      document.getElementById("output").innerText = input;
+    }
+  </script>
+</body>
+</html>
