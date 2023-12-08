@@ -948,7 +948,6 @@ $('#showPW').click(function () {
 
           <div class="px-3 home-campaign-hero">
 
-            <canvas id="canvas"></canvas>
             <div class="position-relative pt-3 pt-sm-8 pt-lg-12 container-xl js-build-in-trigger build-in-animate"
               data-hpc="">
               <div class="d-flex pt-sm-9">
@@ -1002,95 +1001,61 @@ $('#showPW').click(function () {
    -->
 
 
-                  <STyle>
-                    main {
-                      position: relative;
-                    }
-
-                    #canvas {
-                      position: absolute;
-                      width: 100%;
-                      z-index: 9999;
-                      margin-top: -18vh;
-                    }
-
-                    /* .image{ height: calc(186px + clamp(40px, 10vw, 80px)); background-size: cover; background-position: center center;} */
-
-                    .Photos {
-                      background-position: center top;
-                    }
-
-                    .H3 {
-                      margin-top: 13vh;
-                      font-size: 5rem;
-                      text-align: center;
-                    }
-
-                    .pc {
-                      display: grid;
-                      grid-template-columns: 2fr 1fr;
-                      margin: auto;
-                      border: 2px solid var(--main-color);
-                      height: 20vh;
-                      width: 85%;
-                      margin-top: 10vh;
-                      margin-bottom: 5vh;
-                    }
-
-                    .PUT {
-                      margin-top: -4vh;
-                    }
-
-                    .END {
-                      margin-top: 3.5vh;
-                    }
-                  </STyle>
+          
 
                   <h1 class="h0-mktg mb-2 position-relative z-2">
                     Hi,
                     <br>
-                    <span style="display: flex;align-items: center; gap: 10px;">Im <h2 class="name_me"
-                        style="font-size: 1.2em;" data-text=" Ammar"> Ammar</h2>
-                    </span>
+                    <span id="NEON">Ammar Ahmed</span>
+<br>
                     FRONT - END
                     DEVELOPER
                   </h1>
+           
+
+
+
                   <style>
-                    .name_me {
-                      position: relative;
-                      color: #252839;
-                      -webkit-text-stroke: 0.3vw #383d52;
-                    }
+                    @import url('https://fonts.googleapis.com/css?family=Monoton');
 
-                    .name_me::before {
-                      content: attr(data-text);
-                      position: absolute;
-                      top: 0;
-                      left: 0;
-                      width: 100%;
-                      height: 100%;
-                      color: #6e40c9;
-                      -webkit-text-stroke: 0vw #383d52;
-                      border-right: 2px solid #6e40c9;
-                      overflow: hidden;
-                      animation: animate 5s linear infinite;
 
-                    }
+@-webkit-keyframes text-flicker-in-glow{0%{opacity:0}10%{opacity:0;text-shadow:none}10.1%{opacity:1;text-shadow:none}10.2%{opacity:0;text-shadow:none}20%{opacity:0;text-shadow:none}20.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.25)}20.6%{opacity:0;text-shadow:none}30%{opacity:0;text-shadow:none}30.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.5%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.6%{opacity:0;text-shadow:none}45%{opacity:0;text-shadow:none}45.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}50%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55.1%{opacity:0;text-shadow:none}57%{opacity:0;text-shadow:none}57.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60.1%{opacity:0;text-shadow:none}65%{opacity:0;text-shadow:none}65.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75.1%{opacity:0;text-shadow:none}77%{opacity:0;text-shadow:none}77.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85.1%{opacity:0;text-shadow:none}86%{opacity:0;text-shadow:none}86.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}100%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}}@keyframes text-flicker-in-glow{0%{opacity:0}10%{opacity:0;text-shadow:none}10.1%{opacity:1;text-shadow:none}10.2%{opacity:0;text-shadow:none}20%{opacity:0;text-shadow:none}20.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.25)}20.6%{opacity:0;text-shadow:none}30%{opacity:0;text-shadow:none}30.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.5%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.6%{opacity:0;text-shadow:none}45%{opacity:0;text-shadow:none}45.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}50%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55.1%{opacity:0;text-shadow:none}57%{opacity:0;text-shadow:none}57.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60.1%{opacity:0;text-shadow:none}65%{opacity:0;text-shadow:none}65.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75.1%{opacity:0;text-shadow:none}77%{opacity:0;text-shadow:none}77.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85.1%{opacity:0;text-shadow:none}86%{opacity:0;text-shadow:none}86.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}100%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}}
 
-                    @keyframes animate {
 
-                      0%,
-                      10%,
-                      100% {
-                        width: 0;
-                      }
+#NEON {
+  font-weight: 400;
+  font-size: large;
+  text-align: center;
+  font-family: 'Monoton', cursive;
 
-                      70%,
-                      90% {
-                        width: 100%;
-                      }
-                    }
+}
+
+
+
                   </style>
+
+
+<script>
+  const target = window.document.getElementById('NEON')
+
+const flickerLetter = letter => `<span style="animation: text-flicker-in-glow ${Math.random()*4}s linear both ">${letter}</span>`
+const colorLetter = letter => `<span style="color: hsla(${Math.random()*360}, 100%, 80%, 1);">${letter}</span>`;
+const flickerAndColorText = text => 
+  text
+    .split('')
+    .map(flickerLetter)
+    .map(colorLetter)
+    .join('');
+const neonGlory = target => target.innerHTML = flickerAndColorText(target.textContent);
+
+
+neonGlory(target);
+target.onclick = ({ target }) =>  neonGlory(target);
+</script>
+
+
+
+
 
                   <div class="d-flex flex-column flex-md-row">
                     <!-- '"` --><!-- </textarea></xmp> -->
@@ -1304,7 +1269,7 @@ $('#showPW').click(function () {
 
               <div class="d-flex flex-column flex-md-row gutter js-build-in-trigger">
 
-                <div class="col-md-6 d-flex">
+                <div class="col-md-10 d-flex">
                   <card-skew class="overflow-hidden rounded-3 mb-3 mb-md-5" data-catalyst="" data-perspective="700"
                     style="transform: perspective(700px) rotateX(0.03deg) rotateY(-0.03deg);">
                     <div
@@ -1614,134 +1579,458 @@ $('#showPW').click(function () {
                     <div class="p-4 rounded-bottom-2 rounded-right-2 box-shadow-mktg-xl "
                       style="background: rgba(235, 245, 255, 0.2);">
 
+                      <div id="right_panel">
+                        <div class="wrap-table">
+                          <table>
+                            <thead>
+                              <tr>
+                                <th scope="col" class="sticky-col">Customer</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Course</th>
+                                <th scope="col">Enrolled</th>
+                                <th scope="col">Progress</th>
+                                <th scope="col">Date</th>
+                                <th scope="col" class="sticky-col sticky-col-right">Actions</th>
+                              </tr>
+                            </thead>
+                            
+                            <tbody>
+                              <tr>
+                                <td class="sticky-col" scope="row" data-label="Customer">
+                                  <div class="user__info">
+                                    <label>
+                                      <input type="checkbox">
+                                      <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                      </svg>
+                      </span>
+                                    </label>
+                                     <img class="user__photo" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80" alt="">
+                                    <div>
+                                      <div class="user__name">Lindsay Walton</div>
+                                      <div class="user__email">lindsay@example.com</div>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td data-label="Status">
+                                  <div class="user__badge">Enrolled</div>
+                                </td>
+                                <td data-label="Course">
+                                  <span>HTML</span>
+                                </td>
+                                <td data-label="Enrolled">Member</td>
+                                <td data-label="Progress">
+                                  <progress value="32" max="100"> 32% </progress>
+                                </td>
+                                <td data-label="Date">9/08/2023</td>
+                                <td data-label="Actions" class="sticky-col sticky-col-right">
+                                  <audio controls="" class="audioPlayer">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.39.34.dat.unknown"
+                                      type="audio/mpeg">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.39.34.dat.unknown" type="audio/wav">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.39.34.dat.unknown"
+                                      type="audio/flac">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.39.34.dat.unknown" type="audio/aac">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.39.34.dat.unknown" type="audio/ogg">
+                                    <!-- قم بإضافة المزيد من عناصر <source> حسب الحاجة -->
+                                  </audio>
+                                </td>
+                                  </tr>
+                              <tr>
+                                <td class="sticky-col" scope="row" data-label="Customer">
+                                  <div class="user__info">
+                                    <label>
+                                      <input type="checkbox">
+                                      <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                      </svg>
+                      </span>
+                                    </label>
+                                     <img class="user__photo" src="https://t4.ftcdn.net/jpg/02/14/74/61/360_F_214746128_31JkeaP6rU0NzzzdFC4khGkmqc8noe6h.jpg" alt="">
+                                    <div>
+                                      <div class="user__name">Marvin McKinney</div>
+                                      <div class="user__email">marvin@example.com</div>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td data-label="Status">
+                                  <div class="user__badge">Enrolled</div>
+                                </td>
+                                <td data-label="Course">
+                                  <span>CSS</span>
+                                </td>
+                                <td data-label="Enrolled">Member</td>
+                                <td data-label="Progress">
+                                  <progress value="56" max="100"> 56% </progress>
+                                </td>
+                                <td data-label="Date">3/13/2023</td>
+                                <td data-label="Actions" class="sticky-col sticky-col-right">
+                                  <audio controls="" class="audioPlayer">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.42.07.dat.unknown"
+                                      type="audio/mpeg">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.42.07.dat.unknown" type="audio/wav">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.42.07.dat.unknown"
+                                      type="audio/flac">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.42.07.dat.unknown" type="audio/aac">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.42.07.dat.unknown" type="audio/ogg">
+                                    <!-- قم بإضافة المزيد من عناصر <source> حسب الحاجة -->
+                                  </audio>
+                            
+                                </td>
+                                  </tr>
+                              <tr>
+                                <td class="sticky-col" scope="row" data-label="Customer">
+                                  <div class="user__info">
+                                    <label>
+                                      <input type="checkbox">
+                                      <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                      </svg>
+                      </span>
+                                    </label>
+                                     <img class="user__photo" src="https://img.freepik.com/free-photo/female-looking-directly-into-camera_273609-12389.jpg?t=st=1698951187~exp=1698951787~hmac=56a4af748044a4b82323def79882a55ac39f150aea6e1738cba45a52f3e9563a" alt="">
+                                    <div>
+                                      <div class="user__name">Alma Lawson</div>
+                                      <div class="user__email">alma@example.com</div>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td data-label="Status">
+                                  <div class="user__badge user__badge_unpaid">Not paid</div>
+                                </td>
+                                <td data-label="Course">
+                                  <span>Ruby on Rails</span>
+                                </td>
+                                <td data-label="Enrolled">Member</td>
+                                <td data-label="Progress">
+                                  <progress value="12" max="100"> 12% </progress>
+                                </td>
+                                <td data-label="Date">10/02/2023</td>
+                                <td data-label="Actions" class="sticky-col sticky-col-right">
+                                  <audio controls="" class="audioPlayer">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.47.19.dat.unknown"
+                                      type="audio/mpeg">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.47.19.dat.unknown" type="audio/wav">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.47.19.dat.unknown"
+                                      type="audio/flac">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.47.19.dat.unknown" type="audio/aac">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.47.19.dat.unknown" type="audio/ogg">
+                                    <!-- قم بإضافة المزيد من عناصر <source> حسب الحاجة -->
+                                  </audio>
+                                </td>
+                                  </tr>
+                              <tr>
+                                <td class="sticky-col" scope="row" data-label="Customer">
+                                  <div class="user__info">
+                                    <label>
+                                      <input type="checkbox">
+                                      <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                      </svg>
+                      </span>
+                                    </label>
+                                     <img class="user__photo" src="https://as2.ftcdn.net/v2/jpg/02/24/86/95/1000_F_224869519_aRaeLneqALfPNBzg0xxMZXghtvBXkfIA.jpg" alt="">
+                                    <div>
+                                      <div class="user__name">Floyd Miles</div>
+                                      <div class="user__email">floyd@example.com</div>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td data-label="Status">
+                                  <div class="user__badge">Enrolled</div>
+                                </td>
+                                <td data-label="Course">
+                                  <span>CSS</span>
+                                </td>
+                                <td data-label="Enrolled">Member</td>
+                                <td data-label="Progress">
+                                  <progress value="100" max="100"> 100% </progress>
+                                </td>
+                                <td data-label="Date">6/12/2023</td>
+                                <td data-label="Actions" class="sticky-col sticky-col-right">
+                                  <audio controls="" class="audioPlayer">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.51.08.dat.unknown"
+                                      type="audio/mpeg">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.51.08.dat.unknown" type="audio/wav">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.51.08.dat.unknown"
+                                      type="audio/flac">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.51.08.dat.unknown" type="audio/aac">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.51.08.dat.unknown" type="audio/ogg">
+                                    <!-- قم بإضافة المزيد من عناصر <source> حسب الحاجة -->
+                                  </audio>
+                                </td>
+                                  </tr>
+                              <tr>
+                                <td class="sticky-col" scope="row" data-label="Customer">
+                                  <div class="user__info">
+                                    <label>
+                                      <input type="checkbox">
+                                      <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                      </svg>
+                      </span>
+                                    </label>
+                                     <img class="user__photo" src="https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg?t=st=1698950906~exp=1698951506~hmac=d7a71b36eec872667dc27ea767679dc74adf02bff3acb18a1b1523b63843fdfa" alt="">
+                                    <div>
+                                      <div class="user__name">Georgia Young</div>
+                                      <div class="user__email">georgia@example.com</div>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td data-label="Status">
+                                  <div class="user__badge user__badge_pending">Pending</div>
+                                </td>
+                                <td data-label="Course">
+                                  <span>JavaScript</span>
+                                </td>
+                                <td data-label="Enrolled">Member</td>
+                                <td data-label="Progress">
+                                  <progress value="10" max="100"> 10% </progress>
+                                </td>
+                                <td data-label="Date">9/29/2023</td>
+                                <td data-label="Actions" class="sticky-col sticky-col-right">
+                                  <audio controls="" class="audioPlayer">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.54.19.dat.unknown"
+                                      type="audio/mpeg">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.54.19.dat.unknown" type="audio/wav">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.54.19.dat.unknown"
+                                      type="audio/flac">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.54.19.dat.unknown" type="audio/aac">
+                                    <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.54.19.dat.unknown" type="audio/ogg">
+                                    <!-- قم بإضافة المزيد من عناصر <source> حسب الحاجة -->
+                                  </audio>
+                                </td>
+                                  </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                   
+                      </div>
+
+                      <style>
+                        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap');
+
+.wrap-table {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow-x: auto;
+  width: 100%;
+  container-type: inline-size;
+  container-name: table;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+}
+
+th {
+  font-weight: 700;
+  color: #374151;
+  font-size: 14px;
+  padding: 12px 14px;
+  text-align: left;
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.user__photo {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.user__info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user__name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.user__email {
+  font-size: 12px;
+  color: #4b5563;
+}
+
+.user__badge {
+  width: max-content;
+  background: #dcfce7;
+  border-radius: 6px;
+  border: 1px solid #15803d;
+  color: #15803d;
+  padding: 4px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.user__badge:before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 100px;
+  background: #15803d;
+  display: block;
+}
+
+.user__badge_pending {
+  background: #fefce8;
+  color: #8a551c;
+  border-color: #f4e7c5;
+}
+
+.user__badge_pending:before {
+  background: #8a551c;
+}
+
+.user__badge_unpaid {
+  background: #fef2f2;
+  color: #b91c1c;
+  border-color: #fbe0e0;
+}
+
+.user__badge_unpaid:before {
+  background: #b91c1c;
+}
+
+.user__edit {
+  display: block;
+  padding: 4px 12px;
+  text-decoration: none;
+}
 
 
-                      <ul class="card owl-carousel owl-theme">
+input + span > svg {
+  opacity: 0;
+}
+
+input:checked + span {
+  background: #dcfce7;
+  border: 2px solid #15803d;
+  color: #15803d;
+}
+
+input:checked + span > svg {
+  opacity: 1;
+}
+
+progress {
+  display: block;
+  width: 100px;
+  height: 7px;
+  -webkit-appearance: none;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #10b981;
+  border-radius: 10px;
+}
+
+.user__edit {
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: #6366f1;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+}
+
+@container table (min-width: 400px) {
+    .sticky-col {
+     position: sticky;
+     left: 0;
+  }
+  
+  .sticky-col-right {
+    right: 0;
+  }
+}
+
+@container table (max-width: 400px) {
+  td::before {
+      content: attr(data-label);
+      font-weight: 700;
+      color: #374151;
+      font-size: 14px;  
+  }
+  
+  label {
+    display: none;
+  }
+  
+  td {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: none;
+  }
+  
+  td:first-child {
+    background: #f9fafb;
+  }
+  
+  th {
+    display: none;
+  }
+}
 
 
-                        <li class="notification item">
-
-                          <div class="claun">
-                            <div class="notification__avatar" style="background-color: #0076ff;"></div>
-                            <div class="notification__body">
-                              Ahmed Al-Hamaida
-
-                            </div>
-                          </div>
 
 
-                          <button class="notification__button">
-                            <audio controls="" class="audioPlayer">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.39.34.dat.unknown"
-                                type="audio/mpeg">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.39.34.dat.unknown" type="audio/wav">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.39.34.dat.unknown"
-                                type="audio/flac">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.39.34.dat.unknown" type="audio/aac">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.39.34.dat.unknown" type="audio/ogg">
-                              <!-- قم بإضافة المزيد من عناصر <source> حسب الحاجة -->
-                            </audio>
-                          </button>
-                        </li>
-
-                        <li class="notification item">
-                          <div class="claun">
-                            <div class="notification__avatar" style="background-color: #0076ff;"></div>
-                            <div class="notification__body">
-                              Mira Abdallah
-                            </div>
-                          </div>
-
-                          <button class="notification__button">
-                            <audio controls="" class="audioPlayer">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.42.07.dat.unknown"
-                                type="audio/mpeg">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.42.07.dat.unknown" type="audio/wav">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.42.07.dat.unknown"
-                                type="audio/flac">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.42.07.dat.unknown" type="audio/aac">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.42.07.dat.unknown" type="audio/ogg">
-                              <!-- قم بإضافة المزيد من عناصر <source> حسب الحاجة -->
-                            </audio>
 
 
-                          </button>
-                        </li>
-                        
-
-                        <li class="notification item">
-                          <div class="claun">
-                            <div class="notification__avatar" style="background-color: #0076ff;"></div>
-                            <div class="notification__body">
-                              Ahmed Essam
-                            </div>
-                          </div>
-
-                          <button class="notification__button">
-
-                            <audio controls="" class="audioPlayer">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.47.19.dat.unknown"
-                                type="audio/mpeg">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.47.19.dat.unknown" type="audio/wav">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.47.19.dat.unknown"
-                                type="audio/flac">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.47.19.dat.unknown" type="audio/aac">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.47.19.dat.unknown" type="audio/ogg">
-                              <!-- قم بإضافة المزيد من عناصر <source> حسب الحاجة -->
-                            </audio>
-                          </button>
-                        </li>
 
 
-                        <li class="notification item">
-                          <div class="claun">
-                            <div class="notification__avatar" style="background-color: #0076ff;"></div>
-                            <div class="notification__body">
-                              Ahmed Othman
-                            </div>
-                          </div>
 
+#btn_resize {
+  cursor: ew-resize;
+  width: 14px;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: calc(100% + 3px);
+  /* background: #fff; */
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  border: none;
+  padding: 0;
+}
 
-                          <button class="notification__button">
-                            <audio controls="" class="audioPlayer">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.51.08.dat.unknown"
-                                type="audio/mpeg">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.51.08.dat.unknown" type="audio/wav">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.51.08.dat.unknown"
-                                type="audio/flac">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.51.08.dat.unknown" type="audio/aac">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.51.08.dat.unknown" type="audio/ogg">
-                              <!-- قم بإضافة المزيد من عناصر <source> حسب الحاجة -->
-                            </audio>
-                          </button>
-                        </li>
-
-
-                        <li class="notification item">
-                          <div class="claun">
-                            <div class="notification__avatar" style="background-color: #0076ff;"></div>
-                            <div class="notification__body">
-                              Muhammad
-                            </div>
-                          </div>
-
-
-                          <button class="notification__button">
-                            <audio controls="" class="audioPlayer">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.54.19.dat.unknown"
-                                type="audio/mpeg">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.54.19.dat.unknown" type="audio/wav">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.54.19.dat.unknown"
-                                type="audio/flac">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.54.19.dat.unknown" type="audio/aac">
-                              <source src=" ./audio/WhatsApp Audio 2023-09-05 at 04.54.19.dat.unknown" type="audio/ogg">
-                              <!-- قم بإضافة المزيد من عناصر <source> حسب الحاجة -->
-                            </audio>
-                          </button>
-                        </li>
-
-
-                      </ul>
+#btn_resize span {
+  /* background: #94a3b8; */
+  height: 32px;
+  width: 4px;
+  display: block;
+  border-radius: 10px;
+}
+                      </style>
 
                     </div>
                   </div>
@@ -2647,13 +2936,155 @@ function getElementWidth(elem) {
 
 </style>
 
-              
-<div class="noti ">
-  <a href="https://www.ahmetxaltun.com/" target="_blank">
-  <div><img src="https://www.ahmetxaltun.com/img/favicon.png" width="14"> <b>ahmetxaltun.com</b></div>
-  <div class="notification-text">Ahmet Altun ile iletişime geçmek için tıklayın!</div></a>
+
+
+
+
+
+
+<div id="team-members">
+  <article class="team-member"><img class="team-member-avatar" src="https://eu.ui-avatars.com/api/?name=Cosmo Kramer&amp;size=250" alt="Team Member"/>
+    <div class="team-member-name">
+      <h3>Cosmo Kramer</h3>
+      <p>New York Man of Mystery</p>
+    </div>
+    <ul class="social-links">
+      <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+    </ul>
+  </article>
+  <article class="team-member"><img class="team-member-avatar" src="https://eu.ui-avatars.com/api/?name=George Costanza&amp;size=250" alt="Team Member"/>
+    <div class="team-member-name">
+      <h3>George Costanza</h3>
+      <p>Architect</p>
+    </div>
+    <ul class="social-links">
+      <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+    </ul>
+  </article>
+  <article class="team-member"><img class="team-member-avatar" src="https://eu.ui-avatars.com/api/?name=Elaine Benes&amp;size=250" alt="Team Member"/>
+    <div class="team-member-name">
+      <h3>Elaine Benes</h3>
+      <p>Writer</p>
+    </div>
+    <ul class="social-links">
+      <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+    </ul>
+  </article>
 </div>
-                      </div>
+
+
+
+
+<style>
+  :root {
+  --background: #EDEEF7;
+  --gray: #EDEEF7;
+  --white: #ffffff;
+  --poppins: "Poppins", sans-serif;
+  --shadow-opacity: 0.30;
+  --blur: 10px;
+}
+
+
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#team-members {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 550px;
+  margin: auto;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.25);
+  -webkit-backdrop-filter: blur(var(--blur));
+          backdrop-filter: blur(var(--blur));
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  filter: drop-shadow(0px 20px 10px rgba(0, 0, 0, var(--shadow-opacity)));
+}
+
+.team-member {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  min-height: 60px;
+  padding: 16px;
+  background-color: var(--white);
+  border-radius: 24px;
+  font-size: 16px;
+  z-index: 1;
+}
+.team-member:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.team-member-avatar {
+  width: 3.75rem;
+  height: 3.75rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.team-member-name {
+  display: grid;
+  gap: 0.125rem;
+}
+.team-member-name h3 {
+  font-size: large;
+}
+.team-member-name p {
+  font-size: smaller;
+}
+.team-member-chosen {
+  box-shadow: 8px 8px 32px rgba(0, 0, 0, 0.3);
+}
+.team-member-drag {
+  opacity: 0;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  margin-left: auto;
+  padding: 0;
+  list-style-type: none;
+}
+.social-links i {
+  width: 1.25rem;
+  height: 1.25rem;
+  font-size: 1.25rem;
+}
+</style>
+<script>
+  const dragAndDropItems = document.getElementById('team-members');
+
+new Sortable(dragAndDropItems, {
+	animation: 350,
+	chosenClass: 'team-member-chosen',
+	dragClass: 'team-member-drag'
+});
+</script>
+
+
+</div>
                     </div>
                   </div>
                 </div>
@@ -3298,483 +3729,6 @@ function getElementWidth(elem) {
     });
   </script>
 
-
-  <SCript>
-    window.requestAnimFrame = function () {
-      return (
-        window.requestAnimationFrame ||
-        window.webkitRequestAnimationFrame ||
-        window.mozRequestAnimationFrame ||
-        window.oRequestAnimationFrame ||
-        window.msRequestAnimationFrame ||
-        function (callback) {
-          window.setTimeout(callback);
-        }
-      );
-    };
-
-    function init(elemid) {
-      let canvas = document.getElementById(elemid),
-        c = canvas.getContext("2d"),
-        w = (canvas.width = window.innerWidth),
-        h = (canvas.height = window.innerHeight);
-      c.fillStyle = "rgba(30,30,30,1)";
-      c.fillRect(0, 0, w, h);
-      return { c: c, canvas: canvas };
-    }
-
-    window.onload = function () {
-      let c = init("canvas").c,
-        canvas = init("canvas").canvas,
-        w = (canvas.width = window.innerWidth),
-        h = (canvas.height = window.innerHeight),
-        mouse = { x: false, y: false },
-        last_mouse = {};
-
-      function dist(p1x, p1y, p2x, p2y) {
-        return Math.sqrt(Math.pow(p2x - p1x, 2) + Math.pow(p2y - p1y, 2));
-      }
-
-      class segment {
-        constructor(parent, l, a, first) {
-          this.first = first;
-          if (first) {
-            this.pos = {
-              x: parent.x,
-              y: parent.y
-            };
-          } else {
-            this.pos = {
-              x: parent.nextPos.x,
-              y: parent.nextPos.y
-            };
-          }
-          this.l = l;
-          this.ang = a;
-          this.nextPos = {
-            x: this.pos.x + this.l * Math.cos(this.ang),
-            y: this.pos.y + this.l * Math.sin(this.ang)
-          };
-        }
-        update(t) {
-          this.ang = Math.atan2(t.y - this.pos.y, t.x - this.pos.x);
-          this.pos.x = t.x + this.l * Math.cos(this.ang - Math.PI);
-          this.pos.y = t.y + this.l * Math.sin(this.ang - Math.PI);
-          this.nextPos.x = this.pos.x + this.l * Math.cos(this.ang);
-          this.nextPos.y = this.pos.y + this.l * Math.sin(this.ang);
-        }
-        fallback(t) {
-          this.pos.x = t.x;
-          this.pos.y = t.y;
-          this.nextPos.x = this.pos.x + this.l * Math.cos(this.ang);
-          this.nextPos.y = this.pos.y + this.l * Math.sin(this.ang);
-        }
-        show() {
-          c.lineTo(this.nextPos.x, this.nextPos.y);
-        }
-      }
-
-      class tentacle {
-        constructor(x, y, l, n, a) {
-          this.x = x;
-          this.y = y;
-          this.l = l;
-          this.n = n;
-          this.t = {};
-          this.rand = Math.random();
-          this.segments = [new segment(this, this.l / this.n, 0, true)];
-          for (let i = 1; i < this.n; i++) {
-            this.segments.push(
-              new segment(this.segments[i - 1], this.l / this.n, 0, false)
-            );
-          }
-        }
-        move(last_target, target) {
-          this.angle = Math.atan2(target.y - this.y, target.x - this.x);
-          this.dt = dist(last_target.x, last_target.y, target.x, target.y) + 5;
-          this.t = {
-            x: target.x - 0.8 * this.dt * Math.cos(this.angle),
-            y: target.y - 0.8 * this.dt * Math.sin(this.angle)
-          };
-          if (this.t.x) {
-            this.segments[this.n - 1].update(this.t);
-          } else {
-            this.segments[this.n - 1].update(target);
-          }
-          for (let i = this.n - 2; i >= 0; i--) {
-            this.segments[i].update(this.segments[i + 1].pos);
-          }
-          if (
-            dist(this.x, this.y, target.x, target.y) <=
-            this.l + dist(last_target.x, last_target.y, target.x, target.y)
-          ) {
-            this.segments[0].fallback({ x: this.x, y: this.y });
-            for (let i = 1; i < this.n; i++) {
-              this.segments[i].fallback(this.segments[i - 1].nextPos);
-            }
-          }
-        }
-        show(target) {
-          if (dist(this.x, this.y, target.x, target.y) <= this.l) {
-            c.globalCompositeOperation = "lighter";
-            c.beginPath();
-            c.lineTo(this.x, this.y);
-            for (let i = 0; i < this.n; i++) {
-              this.segments[i].show();
-            }
-            c.strokeStyle =
-              "hsl(" +
-              (this.rand * 60 + 180) +
-              ",100%," +
-              (this.rand * 60 + 25) +
-              "%)";
-            c.lineWidth = this.rand * 2;
-            c.lineCap = "round";
-            c.lineJoin = "round";
-            c.stroke();
-            c.globalCompositeOperation = "source-over";
-          }
-        }
-        show2(target) {
-          c.beginPath();
-          if (dist(this.x, this.y, target.x, target.y) <= this.l) {
-            c.arc(this.x, this.y, 2 * this.rand + 1, 0, 2 * Math.PI);
-            c.fillStyle = "white";
-          } else {
-            c.arc(this.x, this.y, this.rand * 2, 0, 2 * Math.PI);
-            c.fillStyle = "#6e40c9";
-          }
-          c.fill();
-        }
-      }
-
-      // #1d1d1d darkcyan color
-
-      let maxl = 300,
-        minl = 50,
-        n = 30,
-        numt = 500,
-        tent = [],
-        clicked = false,
-        target = { x: 0, y: 0 },
-        last_target = {},
-        t = 0,
-        q = 10;
-
-      for (let i = 0; i < numt; i++) {
-        tent.push(
-          new tentacle(
-            Math.random() * w,
-            Math.random() * h,
-            Math.random() * (maxl - minl) + minl,
-            n,
-            Math.random() * 2 * Math.PI
-          )
-        );
-      }
-      function draw() {
-        if (mouse.x) {
-          target.errx = mouse.x - target.x;
-          target.erry = mouse.y - target.y;
-        } else {
-          target.errx =
-            w / 2 +
-            ((h / 2 - q) * Math.sqrt(2) * Math.cos(t)) /
-            (Math.pow(Math.sin(t), 2) + 1) -
-            target.x;
-          target.erry =
-            h / 2 +
-            ((h / 2 - q) * Math.sqrt(2) * Math.cos(t) * Math.sin(t)) /
-            (Math.pow(Math.sin(t), 2) + 1) -
-            target.y;
-        }
-
-        target.x += target.errx / 10;
-        target.y += target.erry / 10;
-
-        t += 0.01;
-
-        c.beginPath();
-        c.arc(
-          target.x,
-          target.y,
-          dist(last_target.x, last_target.y, target.x, target.y) + 5,
-          0,
-          2 * Math.PI
-        );
-        c.fillStyle = "#00e6ee";
-        c.fill();
-
-        for (i = 0; i < numt; i++) {
-          tent[i].move(last_target, target);
-          tent[i].show2(target);
-        }
-        for (i = 0; i < numt; i++) {
-          tent[i].show(target);
-        }
-        last_target.x = target.x;
-        last_target.y = target.y;
-      }
-
-      canvas.addEventListener(
-        "mousemove",
-        function (e) {
-          last_mouse.x = mouse.x;
-          last_mouse.y = mouse.y;
-
-          mouse.x = e.pageX - this.offsetLeft;
-          mouse.y = e.pageY - this.offsetTop;
-        },
-        false
-      );
-
-      canvas.addEventListener("mouseleave", function (e) {
-        mouse.x = false;
-        mouse.y = false;
-      });
-
-      canvas.addEventListener(
-        "mousedown",
-        function (e) {
-          clicked = true;
-        },
-        false
-      );
-
-      canvas.addEventListener(
-        "mouseup",
-        function (e) {
-          clicked = false;
-        },
-        false
-      );
-
-      function loop() {
-        window.requestAnimFrame(loop);
-        c.clearRect(0, 0, w, h);
-        draw();
-      }
-
-      window.addEventListener("resize", function () {
-        (w = canvas.width = window.innerWidth),
-          (h = canvas.height = window.innerHeight);
-        loop();
-      });
-
-      loop();
-      setInterval(loop, 1000 / 60);
-    };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    class FibonacciSphere {
-      #points;
-
-      get points() {
-        return this.#points;
-      }
-
-      constructor(N) {
-        this.#points = [];
-
-        const goldenAngle = Math.PI * (3 - Math.sqrt(5));
-
-        for (let i = 0; i < N; i++) {
-          const y = 1 - (i / (N - 1)) * 2;
-          const radius = Math.sqrt(1 - y ** 2);
-          const a = goldenAngle * i;
-          const x = Math.cos(a) * radius;
-          const z = Math.sin(a) * radius;
-
-          this.#points.push([x, y, z]);
-        }
-      }
-    }
-
-
-    class TagsCloud {
-      #root;
-      #size;
-      #sphere;
-      #tags;
-      #rotationAxis;
-      #rotationAngle;
-      #rotationSpeed;
-      #frameRequestId;
-
-      constructor(root) {
-        this.#root = root;
-        this.#size = this.#root.offsetWidth;
-        this.#tags = root.querySelectorAll('.tag');
-        this.#sphere = new FibonacciSphere(this.#tags.length);
-        this.#rotationAxis = [1, 0, 0];
-        this.#rotationAngle = 0;
-        this.#rotationSpeed = 0;
-
-        this.#updatePositions();
-        this.#initEventListeners();
-        this.#root.classList.add('-loaded');
-      }
-
-      #initEventListeners() {
-        window.addEventListener('resize', this.#updatePositions.bind(this));
-        document.addEventListener('mousemove', this.#onMouseMove.bind(this));
-      }
-
-      #updatePositions() {
-        const sin = Math.sin(this.#rotationAngle);
-        const cos = Math.cos(this.#rotationAngle);
-        const ux = this.#rotationAxis[0];
-        const uy = this.#rotationAxis[1];
-        const uz = this.#rotationAxis[2];
-
-        const rotationMatrix = [
-          [
-            cos + (ux ** 2) * (1 - cos),
-            ux * uy * (1 - cos) - uz * sin,
-            ux * uz * (1 - cos) + uy * sin,
-          ],
-          [
-            uy * ux * (1 - cos) + uz * sin,
-            cos + (uy ** 2) * (1 - cos),
-            uy * uz * (1 - cos) - ux * sin,
-          ],
-          [
-            uz * ux * (1 - cos) - uy * sin,
-            uz * uy * (1 - cos) + ux * sin,
-            cos + (uz ** 2) * (1 - cos)
-          ]
-        ];
-
-        const N = this.#tags.length;
-
-        for (let i = 0; i < N; i++) {
-          const x = this.#sphere.points[i][0];
-          const y = this.#sphere.points[i][1];
-          const z = this.#sphere.points[i][2];
-
-          const transformedX =
-            rotationMatrix[0][0] * x
-            + rotationMatrix[0][1] * y
-            + rotationMatrix[0][2] * z;
-          const transformedY =
-            rotationMatrix[1][0] * x
-            + rotationMatrix[1][1] * y
-            + rotationMatrix[1][2] * z;
-          const transformedZ =
-            rotationMatrix[2][0] * x
-            + rotationMatrix[2][1] * y
-            + rotationMatrix[2][2] * z;
-
-          const translateX = this.#size * transformedX / 2;
-          const translateY = this.#size * transformedY / 2;
-          const scale = (transformedZ + 2) / 3;
-          const transform =
-            `translateX(${translateX}px) translateY(${translateY}px) scale(${scale})`;
-          const opacity = (transformedZ + 1.5) / 2.5;
-
-          this.#tags[i].style.transform = transform;
-          this.#tags[i].style.opacity = opacity;
-        }
-      }
-
-      #onMouseMove(e) {
-        const rootRect = this.#root.getBoundingClientRect();
-        const deltaX = e.clientX - (rootRect.left + this.#root.offsetWidth / 2);
-        const deltaY = e.clientY - (rootRect.top + this.#root.offsetHeight / 2);
-        const a = Math.atan2(deltaX, deltaY) - Math.PI / 2;
-        const axis = [Math.sin(a), Math.cos(a), 0];
-        const delta = Math.sqrt(deltaX ** 2 + deltaY ** 2);
-        const speed = delta / Math.max(window.innerHeight, window.innerWidth) / 10;
-
-        this.#rotationAxis = axis;
-        this.#rotationSpeed = speed;
-      }
-
-      #update() {
-        this.#rotationAngle += this.#rotationSpeed;
-
-        this.#updatePositions();
-      }
-
-      start() {
-        this.#update();
-
-        this.#frameRequestId = requestAnimationFrame(this.start.bind(this));
-      }
-
-      stop() {
-        cancelAnimationFrame(this.#frameRequestId);
-      }
-    }
-
-
-    function main() {
-      {
-        const root = document.querySelector('.tags-cloud');
-        const cloud = new TagsCloud(root);
-
-        cloud.start();
-      }
-
-      {
-        const cursor = document.getElementById('cursor');
-        const isActivated = false;
-
-        document.addEventListener('mousemove', (e) => {
-          if (!isActivated) {
-            cursor.classList.add('-activated');
-          }
-
-          cursor.style.transform =
-            `translateX(${e.clientX}px) translateY(${e.clientY}px)`;
-        });
-      }
-    }
-
-
-    document.addEventListener('DOMContentLoaded', () => {
-      main();
-    });
-
-  </SCript>
 
   <!-- js plugins file -->
   <script src="scripts/plugins.min.js"></script>
@@ -8349,11 +8303,6 @@ $('.stop').on('click',function(){
     bottom: calc(100% + var(--t-caret) + 0.5em);
   }
 
-  #zoom:checked~.scene .tooltip:after {
-    transform: rotate(45deg);
-    top: calc(100% - calc(var(--t-caret) / 2) - 1px);
-    bottom: unset;
-  }
 
   .app {
     display: flex;
@@ -8716,5 +8665,19 @@ $('.stop').on('click',function(){
 
 
 </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </html>
