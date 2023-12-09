@@ -22,10 +22,11 @@
  * Released under MIT license. Copyright (c) 2019 GitHub Inc.
  */
 .h0-mktg, .h1-mktg, .h2-mktg, .h3-mktg, .h4-mktg, .h5-mktg, .h6-mktg {
-    font-family: "Mona Sans", "Mona Sans Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-family: 'Monoton', cursive !important;
     font-feature-settings: "ss02" on, "ss01" on;
     font-weight: 700 !important;
-    letter-spacing: -0.01em !important
+    letter-spacing: -0.01em !important;
+
     }
 .h0-mktg {
     font-size: 48px !important;
@@ -1964,7 +1965,7 @@ a.text-purple-mktg:hover {
 @media (min-width: 1012px) {
     .h0-mktg {
         font-size: 80px !important;
-        line-height: 80px !important
+        line-height: 110px !important
         }
     }
 .h0-mktg, .h1-mktg, .h2-mktg, .h3-mktg, .h4-mktg, .h5-mktg {
@@ -21095,12 +21096,7 @@ themed-picture {
 .CommentBox-input:placeholder-shown + .CommentBox-placeholder {
     display: block
     }
-@supports not selector(. CommentBox: has(*: focus)) {
-    . CommentBox: focus-within {
-        outline: 2px solid var(--focus-outlineColor, var(--color-accent-emphasis));
-        outline-offset: -1px
-        }
-    }
+
 .CommentBox .dragover .CommentBox-input, .CommentBox .dragover .CommentBox-input:focus {
     border-radius: 10px;
     outline: 2px dashed var(--borderColor-default, var(--color-border-default));
@@ -23953,15 +23949,7 @@ a.btn-primary:focus-visible {
 .form-control[disabled]::placeholder, fieldset[disabled] .form-control::placeholder, .form-select[disabled]::placeholder, fieldset[disabled] .form-select::placeholder {
     color: var(--control-fgColor-disabled, var(--color-primer-fg-disabled))
     }
-@supports (-webkit-touch-callout: none) {
-    . form-control, . form-select {
-        font-size: 16px
-        } @media (min-width: 768px) {
-        . form-control, . form-select {
-            font-size: 14px
-            }
-        }
-    }
+
 textarea.form-control {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -24498,11 +24486,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     min-height: 100vh;
     flex-direction: column
     }
-@supports (height: 100dvh) {
-    . AppFrame . AppFrame-main {
-        min-height: 100dvh
-        }
-    }
+
 .AppFrame .AppFrame-header-wrapper {
     position: relative;
     height: min-content;
@@ -25095,11 +25079,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
         overflow: auto;
         scrollbar-width: thin
         }
-    @supports (max-height: 100dvh) {
-        . PageLayout . PageLayout-pane--sticky {
-            max-height: 100dvh
-            }
-        }
+
     .PageLayout [class^=PageLayout-content-centered-] {
         max-width: calc(var(--Layout-content-width) + var(--Layout-pane-width) + var(--Layout-column-gap));
         margin-right: auto;
@@ -25894,22 +25874,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     cursor: default;
     border-color: transparent
     }
-@supports (clip-path: polygon(50% 0, 100% 50%, 50% 100%)) {
-    . pagination . previous_page:: before, . pagination . next_page:: after {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: text-bottom;
-        content: "";
-        background-color: currentColor
-        } . pagination . previous_page:: before {
-        margin-right: 4px;
-        clip-path: polygon(9.8px 12.8px, 8.7px 12.8px, 4.5px 8.5px, 4.5px 7.5px, 8.7px 3.2px, 9.8px 4.3px, 6.1px 8px, 9.8px 11.7px, 9.8px 12.8px)
-        } . pagination . next_page:: after {
-        margin-left: 4px;
-        clip-path: polygon(6.2px 3.2px, 7.3px 3.2px, 11.5px 7.5px, 11.5px 8.5px, 7.3px 12.8px, 6.2px 11.7px, 9.9px 8px, 6.2px 4.3px, 6.2px 3.2px)
-        }
-    }
+;
 .pagination > * {
     display: none
     }
@@ -34865,7 +34830,7 @@ input.FormControl-radio[type=radio]:focus-visible {
 .btn-muted-mktg {
     background: none !important;
     box-shadow: var(--color-mktg-btn-shadow-outline);
-    color: var(--fgColor-default, var(--color-fg-default)) !important
+    color:white !important ;
     }
 .btn-muted-mktg:before {
     display: none
@@ -39581,7 +39546,7 @@ a.Button:hover, summary.Button:hover {
 @media (min-width: 1012px) {
     .h0-mktg {
         font-size: 80px !important;
-        line-height: 80px !important
+        line-height: 110px !important
         }
     }
 @media (min-width: 768px) {
@@ -42801,12 +42766,7 @@ a.Button:hover, summary.Button:hover {
         width: 720px
         }
     }
-@supports not selector(. CommentBox: has(*: focus)) {
-    . CommentBox: focus-within {
-        outline: 2px solid var(--focus-outlineColor, var(--color-accent-emphasis));
-        outline-offset: -1px
-        }
-    }
+
 @media (max-width: 768px) {
     .PageHeader {
         margin-bottom: 16px
@@ -43473,15 +43433,7 @@ a.Button:hover, summary.Button:hover {
         outline: solid 1px transparent
         }
     }
-@supports (-webkit-touch-callout: none) {
-    . form-control, . form-select {
-        font-size: 16px
-        } @media (min-width: 768px) {
-        . form-control, . form-select {
-            font-size: 14px
-            }
-        }
-    }
+
 @media (prefers-color-scheme: light) {
     [data-color-mode=auto][data-light-theme*=dark] .form-select {
         background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iIzZlNzY4MSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNC40MjcgOS40MjdsMy4zOTYgMy4zOTZhLjI1MS4yNTEgMCAwMC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwMDExLjM5NiA5SDQuNjA0YS4yNS4yNSAwIDAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3TDcuODIgMy4wNzJhLjI1LjI1IDAgMDEuMzU0IDBMMTEuNTcgNi40N2EuMjUuMjUgMCAwMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMDEtLjE3Ny0uNDI3eiIgLz48L3N2Zz4=")
@@ -43527,11 +43479,7 @@ a.Button:hover, summary.Button:hover {
         transform: scaleX(1)
         }
     }
-@supports (height: 100dvh) {
-    . AppFrame . AppFrame-main {
-        min-height: 100dvh
-        }
-    }
+
 @media (min-width: 544px) {
     .col-sm-1 {
         width: 8.333333%
@@ -43972,11 +43920,7 @@ a.Button:hover, summary.Button:hover {
         overflow: auto;
         scrollbar-width: thin
         }
-    @supports (max-height: 100dvh) {
-        . PageLayout . PageLayout-pane--sticky {
-            max-height: 100dvh
-            }
-        }
+ 
     .PageLayout [class^=PageLayout-content-centered-] {
         max-width: calc(var(--Layout-content-width) + var(--Layout-pane-width) + var(--Layout-column-gap));
         margin-right: auto;
@@ -44413,22 +44357,7 @@ a.Button:hover, summary.Button:hover {
         flex-shrink: 0
         }
     }
-@supports (clip-path: polygon(50% 0, 100% 50%, 50% 100%)) {
-    . pagination . previous_page:: before, . pagination . next_page:: after {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: text-bottom;
-        content: "";
-        background-color: currentColor
-        } . pagination . previous_page:: before {
-        margin-right: 4px;
-        clip-path: polygon(9.8px 12.8px, 8.7px 12.8px, 4.5px 8.5px, 4.5px 7.5px, 8.7px 3.2px, 9.8px 4.3px, 6.1px 8px, 9.8px 11.7px, 9.8px 12.8px)
-        } . pagination . next_page:: after {
-        margin-left: 4px;
-        clip-path: polygon(6.2px 3.2px, 7.3px 3.2px, 11.5px 7.5px, 11.5px 8.5px, 7.3px 12.8px, 6.2px 11.7px, 9.9px 8px, 6.2px 4.3px, 6.2px 3.2px)
-        }
-    }
+
 @media (min-width: 544px) {
     .pagination > :nth-child(2), .pagination > :nth-last-child(2), .pagination > .current, .pagination > .gap {
         display: inline-block
@@ -59487,10 +59416,49 @@ html[dir="rtl"] .hero__social__item {
 
     h1.h0-mktg.mb-2.position-relative.z-2 {
         color: white;
+        font-family: 'Monoton', cursive;
     }
 
 
     li.experience__timeline__item.has-ultimate-tooltip {
     background: white;
     color: white;
+}
+
+
+
+:root,
+[data-color-mode=light][data-light-theme*=light],
+[data-color-mode=dark][data-dark-theme*=light] {
+    --color-mktg-btn-shadow-outline: rgba(0, 0, 0, 0.15) 0 0 0 1px inset;
+    --color-marketing-icon-primary: var(--color-scale-blue-4);
+    --color-marketing-icon-secondary: var(--color-scale-blue-3);
+    --color-mktg-btn-bg: #1b1f23;
+    --color-mktg-btn-shadow-focus: rgba(0, 0, 0, 0.15) 0 0 0 4px;
+    --color-mktg-btn-shadow-hover: 0 3px 2px rgba(0, 0, 0, 0.07), 0 7px 5px rgba(0, 0, 0, 0.04), 0 12px 10px rgba(0, 0, 0, 0.03), 0 22px 18px rgba(0, 0, 0, 0.03), 0 42px 33px rgba(0, 0, 0, 0.02), 0 100px 80px rgba(0, 0, 0, 0.02);
+    --color-mktg-btn-shadow-hover-muted: rgba(0, 0, 0, 0.7) 0 0 0 2px inset
+}
+
+@media(prefers-color-scheme: light) {
+    [data-color-mode=auto][data-light-theme*=light] {
+        --color-mktg-btn-shadow-outline: rgba(0, 0, 0, 0.15) 0 0 0 1px inset;
+        --color-marketing-icon-primary: var(--color-scale-blue-4);
+        --color-marketing-icon-secondary: var(--color-scale-blue-3);
+        --color-mktg-btn-bg: #1b1f23;
+        --color-mktg-btn-shadow-focus: rgba(0, 0, 0, 0.15) 0 0 0 4px;
+        --color-mktg-btn-shadow-hover: 0 3px 2px rgba(0, 0, 0, 0.07), 0 7px 5px rgba(0, 0, 0, 0.04), 0 12px 10px rgba(0, 0, 0, 0.03), 0 22px 18px rgba(0, 0, 0, 0.03), 0 42px 33px rgba(0, 0, 0, 0.02), 0 100px 80px rgba(0, 0, 0, 0.02);
+        --color-mktg-btn-shadow-hover-muted: rgba(0, 0, 0, 0.7) 0 0 0 2px inset
+    }
+}
+
+@media(prefers-color-scheme: dark) {
+    [data-color-mode=auto][data-dark-theme*=light] {
+        --color-mktg-btn-shadow-outline: rgba(0, 0, 0, 0.15) 0 0 0 1px inset;
+        --color-marketing-icon-primary: var(--color-scale-blue-4);
+        --color-marketing-icon-secondary: var(--color-scale-blue-3);
+        --color-mktg-btn-bg: #1b1f23;
+        --color-mktg-btn-shadow-focus: rgba(0, 0, 0, 0.15) 0 0 0 4px;
+        --color-mktg-btn-shadow-hover: 0 3px 2px rgba(0, 0, 0, 0.07), 0 7px 5px rgba(0, 0, 0, 0.04), 0 12px 10px rgba(0, 0, 0, 0.03), 0 22px 18px rgba(0, 0, 0, 0.03), 0 42px 33px rgba(0, 0, 0, 0.02), 0 100px 80px rgba(0, 0, 0, 0.02);
+        --color-mktg-btn-shadow-hover-muted: rgba(0, 0, 0, 0.7) 0 0 0 2px inset
+    }
 }
