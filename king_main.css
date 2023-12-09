@@ -50644,7 +50644,6 @@ html[dir="rtl"] .header__actionsIcons__item:not(:last-of-type) {
     }
 .header:not(.header--minimized) {
     top: 0;
-    padding: 10px
     }
 @media (min-width: 992px) {
     .header.header--minimized.header--expanded {
@@ -57850,11 +57849,11 @@ li.portfolio__loadMore {
     font-size: 0.875rem;
     margin-top: 0.5rem
     }
-.folder-card-wrap {
+/* .folder-card-wrap {
     display: flex;
     gap: 3%;
     margin: 20px 50px
-    }
+    } */
 .folder-card {
     padding: 1rem 1rem 0.2rem 1rem;
     z-index: 1;
@@ -57906,19 +57905,17 @@ li.portfolio__loadMore {
     }
 /* .............. */
 .folder-card-wrap {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ padding: 80px;
+ border: 
+ var(--borderWidth-thin, 1px) solid var(--borderColor-default, var(--color-border-default)) !important;
     }
 @media (max-width: 992px) {
     div#section-content {
         display: block
         }
-    .folder-card-wrap {
+    /* .folder-card-wrap {
         display: -webkit-box;
         display: -moz-box;
         display: -ms-flexbox;
@@ -57927,7 +57924,7 @@ li.portfolio__loadMore {
         -webkit-flex-flow: nowrap;
         justify-content: space-around;
         overflow: auto
-        }
+        } */
     .img-fluid {
         max-width: 175%;
         height: auto
@@ -59462,3 +59459,5 @@ html[dir="rtl"] .hero__social__item {
         --color-mktg-btn-shadow-hover-muted: rgba(0, 0, 0, 0.7) 0 0 0 2px inset
     }
 }
+
+
