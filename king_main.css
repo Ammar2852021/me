@@ -59488,3 +59488,9 @@ html[dir="rtl"] .hero__social__item {
     h1.h0-mktg.mb-2.position-relative.z-2 {
         color: white;
     }
+
+
+    li.experience__timeline__item.has-ultimate-tooltip {
+    background: white;
+    color: white;
+}
