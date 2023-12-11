@@ -1,31 +1,36 @@
 import cssutils
+from rcssmin import cssmin
 
 def remove_duplicate_rules(input_css, output_css_file):
+    # Parse the input CSS
     sheet = cssutils.CSSParser().parseString(input_css)
 
-    # استخدم مجموعة (set) لتتبع القواعد المستخدمة بالفعل
+    # Use a set to track already used rules
     seen_rules = set()
 
-    # احذف القواعد المكررة
+    # Remove duplicate rules
     rules_to_remove = set()
     for rule in sheet:
         if rule.type == rule.STYLE_RULE and rule.cssText is not None:
-            # تحويل القاعدة إلى سلسلة نصية وتقليل الحالة لضمان الكشف عن التكرار
+            # Convert the rule to a lowercase string to ensure case-insensitive comparison
             rule_text = rule.cssText.lower()
             if rule_text in seen_rules:
                 rules_to_remove.add(rule)
             else:
                 seen_rules.add(rule_text)
 
-    # ازالة القواعد المكررة
+    # Remove duplicate rules
     for rule in rules_to_remove:
         sheet.cssRules.remove(rule)
 
-    # اكتب التعديلات في ملف جديد
-    with open(output_css_file, 'w', encoding='utf-8') as output_file:
-        output_file.write(sheet.cssText.decode('utf-8'))
+    # Minify the modified CSS for better formatting
+    formatted_css = cssmin(sheet.cssText).decode('utf-8')
 
-# مثال على استخدام الدالة
+    # Write the formatted CSS to a new file
+    with open(output_css_file, 'w', encoding='utf-8') as output_file:
+        output_file.write(formatted_css)
+
+# Example usage of the function
 input_css = """
 :root {
     --h00-size-mobile: 2.5rem;
@@ -17022,9 +17027,6 @@ ul.clones li {
     }
 }
 
-.home-campaign {
-    background-color: #0d1117
-}
 
 .home-campaign em {
     font-style: normal
@@ -32331,11 +32333,7 @@ input::-webkit-inner-spin-button {
     margin-left: auto
 }
 
-.container-xl {
-    max-width: 1280px;
-    margin-right: auto;
-    margin-left: auto
-}
+
 
 .col-1 {
     width: 8.33333333%
@@ -37182,6 +37180,9 @@ input::-webkit-inner-spin-button {
 
 .mb-2 {
     margin-bottom: var(--base-size-8, 8px) !important
+    ;
+    color: white;
+    font-family: 'Monoton', cursive !important;
 }
 
 .mr-2 {
@@ -81645,11 +81646,7 @@ input::-webkit-inner-spin-button {
     margin-left: auto
 }
 
-.container-xl {
-    max-width: 1280px;
-    margin-right: auto;
-    margin-left: auto
-}
+
 
 .col-1 {
     width: 8.33333333%
@@ -121584,9 +121581,11 @@ li.portfolio__loadMore {
 }
 
 .folder-card-wrap {
-    display: flex;
-    gap: 3%;
+ 
     margin: 20px 50px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .folder-card {
@@ -122848,7 +122847,7 @@ html[dir="rtl"] .notifications .notify-leave {
 }
 
 .d-flex.pt-sm-9 {
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 .header .brand-logo {
@@ -126564,6 +126563,11 @@ html[dir="rtl"] .contact__form .phone-number .prefix-icon {
 
 
 
+
+.h0-mktg {
+    font-size: 80px !important;
+    line-height: 110px !important;
+}
 """
 
 output_css_file = "output.css"
