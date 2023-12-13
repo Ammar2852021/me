@@ -121552,6 +121552,7 @@ li.portfolio__loadMore {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 50px;
 }
 
 .folder-card {
