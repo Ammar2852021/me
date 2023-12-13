@@ -121552,7 +121552,8 @@ li.portfolio__loadMore {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 50px;
+    padding: 50px !important;
+    border: var(--borderWidth-thin, 1px) solid var(--borderColor-default, var(--color-border-default)) !important;
 }
 
 .folder-card {
@@ -121616,31 +121617,11 @@ li.portfolio__loadMore {
 
 
 
-.folder-card-wrap {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around;
-}
-
 @media (max-width: 992px) {
     div#section-content {
         display: block;
     }
 
-    .folder-card-wrap {
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-flex-flow: nowrap;
-        justify-content: space-around;
-        overflow: auto;
-    }
 
     .img-fluid {
         max-width: 175%;
