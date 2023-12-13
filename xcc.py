@@ -31,7 +31,8 @@ def remove_duplicate_rules(input_css, output_css_file):
         output_file.write(formatted_css)
 
 # Example usage of the function
-input_css = """
+input_css = """ 
+
 :root {
     --h00-size-mobile: 2.5rem;
     --h0-size-mobile: 2rem;
@@ -435,7 +436,7 @@ input_css = """
 }
 
 .btn-muted-mktg {
-    color: var(--fgColor-default, var(--color-fg-default)) !important;
+    color: white !important;
     background: none !important;
     box-shadow: var(--color-mktg-btn-shadow-outline)
 }
@@ -45858,11 +45859,7 @@ input.FormControl-radio[type=radio]:focus-visible {
     pointer-events: none
 }
 
-.btn-muted-mktg {
-    background: none !important;
-    box-shadow: var(--color-mktg-btn-shadow-outline);
-    color: var(--fgColor-default, var(--color-fg-default)) !important
-}
+
 
 .btn-muted-mktg:before {
     display: none
@@ -52346,11 +52343,7 @@ summary.Button:hover {
     opacity: .5
 }
 
-.btn-muted-mktg {
-    color: var(--fgColor-default, var(--color-fg-default)) !important;
-    background: none !important;
-    box-shadow: var(--color-mktg-btn-shadow-outline)
-}
+
 
 .btn-muted-mktg::before {
     display: none
@@ -121586,6 +121579,8 @@ li.portfolio__loadMore {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 50px !important;
+gap: 10px !important;
 }
 
 .folder-card {
@@ -121649,31 +121644,11 @@ li.portfolio__loadMore {
 
 
 
-.folder-card-wrap {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around;
-}
-
 @media (max-width: 992px) {
     div#section-content {
         display: block;
     }
 
-    .folder-card-wrap {
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-flex-flow: nowrap;
-        justify-content: space-around;
-        overflow: auto;
-    }
 
     .img-fluid {
         max-width: 175%;
@@ -126568,6 +126543,8 @@ html[dir="rtl"] .contact__form .phone-number .prefix-icon {
     font-size: 80px !important;
     line-height: 110px !important;
 }
+
+
 """
 
 output_css_file = "output.css"
