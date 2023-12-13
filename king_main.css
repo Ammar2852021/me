@@ -121553,7 +121553,7 @@ li.portfolio__loadMore {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 50px !important;
-    border: var(--borderWidth-thin, 1px) solid var(--borderColor-default, var(--color-border-default)) !important;
+gap: 10px !important;
 }
 
 .folder-card {
