@@ -17900,7 +17900,7 @@ span.CodeMirror-selectedtext {
 }
 
 .CodeMirror-merge-scrolllock:after {
-    content: "⇛  ⇚"
+    content: "⇛  ⇚"
 }
 
 .CodeMirror-merge-scrolllock.CodeMirror-merge-scrolllock-enabled:after {
@@ -67464,7 +67464,7 @@ span.CodeMirror-selectedtext {
 }
 
 .CodeMirror-merge-scrolllock:after {
-    content: "⇛  ⇚"
+    content: "⇛  ⇚"
 }
 
 .CodeMirror-merge-scrolllock.CodeMirror-merge-scrolllock-enabled:after {
@@ -126494,3 +126494,8 @@ html[dir="rtl"] .contact__form .phone-number .prefix-icon {
     font-size: 80px !important;
     line-height: 110px !important;
 }
+
+
+a.btn-mktg.home-campaign-enterprise.btn-muted-mktg {
+    color: white !important;
+};
