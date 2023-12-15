@@ -121530,12 +121530,11 @@ li.portfolio__loadMore {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 50px !important;
+    padding: 30px !important;
 gap: 10px !important;
 }
 
 .folder-card {
-    background-color: hsl(var(--bg-color-two));
     padding: 1rem 1rem 0.2rem 1rem;
     z-index: 1;
     cursor: pointer;
