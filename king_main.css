@@ -98667,9 +98667,9 @@ html[data-color-mode=light] .feed-background {
     }
 }
 
-.home-campaign {
+/* .home-campaign {
     background-color: #0d1117
-}
+} */
 
 .home-campaign em {
     font-style: normal
@@ -126498,3 +126498,9 @@ html[dir="rtl"] .contact__form .phone-number .prefix-icon {
 a.btn-mktg.home-campaign-enterprise.btn-muted-mktg {
     color: white !important;
 };
+
+
+
+div#productivity {
+    background: transparent !important;
+}
