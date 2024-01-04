@@ -2631,7 +2631,7 @@
         <div class="window">
           <div class="scene">
             <ul class="grid">
-              <li>
+              <li class="_li  border color-bg-subtle ">
                 <div class="item">
                   <div class="item__icon">
                     <svg
@@ -2650,7 +2650,7 @@
                   <div class="item__text">jh3yy</div>
                 </div>
               </li>
-              <li>
+              <li class="_li  border color-bg-subtle ">
                 <div class="item">
                   <div class="item__icon">
                     <svg
@@ -2669,8 +2669,8 @@
                   <div class="item__text">Creative</div>
                 </div>
               </li>
-              <li>
-                <div class="item">
+              <li class="_li   ">
+                <div class="item border color-bg-subtle">
                   <div class="item__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -2688,8 +2688,8 @@
                   <div class="item__text">Performant</div>
                 </div>
               </li>
-              <li>
-                <div class="item">
+              <li class="_li  ">
+                <div class="item border color-bg-subtle ">
                   <div class="item__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -2707,8 +2707,8 @@
                   <div class="item__text">Bookmark</div>
                 </div>
               </li>
-              <li>
-                <div class="item">
+              <li class="_li  ">
+                <div class="item  border color-bg-subtle">
                   <div class="item__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -2726,8 +2726,8 @@
                   <div class="item__text">Share</div>
                 </div>
               </li>
-              <li>
-                <div class="item">
+              <li class="_li  ">
+                <div class="item  border color-bg-subtle">
                   <div class="item__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -2745,8 +2745,8 @@
                   <div class="item__text">CSS!</div>
                 </div>
               </li>
-              <li>
-                <div class="item">
+              <li class="_li  ">
+                <div class="item   border color-bg-subtle">
                   <div class="item__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -2764,8 +2764,8 @@
                   <div class="item__text">Responsive</div>
                 </div>
               </li>
-              <li>
-                <div class="item">
+              <li class="_li   ">
+                <div class="item  border color-bg-subtle">
                   <div class="item__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -2786,8 +2786,8 @@
                   <div class="item__text">Profit</div>
                 </div>
               </li>
-              <li>
-                <div class="item">
+              <li class="_li   ">
+                <div class="item border color-bg-subtle">
                   <div class="item__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -2803,8 +2803,8 @@
                   <div class="item__text">Like</div>
                 </div>
               </li>
-              <li>
-                <div class="item">
+              <li class="_li   ">
+                <div class="item border color-bg-subtle">
                   <div class="item__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -2822,8 +2822,8 @@
                   <div class="item__text">Hover</div>
                 </div>
               </li>
-              <li>
-                <div class="item">
+              <li class="_li   ">
+                <div class="item  border color-bg-subtle">
                   <div class="item__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -2839,8 +2839,8 @@
                   <div class="item__text">Gift</div>
                 </div>
               </li>
-              <li>
-                <div class="item">
+              <li class="_li  ">
+                <div class="item ">
                   <div class="item__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -2885,29 +2885,8 @@
         --transition: 0.15s;
       }
       
-      body {
-        display: grid;
-        place-items: center;
-        min-height: 100vh;
-        color: hsl(0 0% 10%);
-        font-family: "Geist Sans", "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
-        background-image:
-          radial-gradient(at 27% 37%, hsla(215, 98%, 61%, 0.15) 0px, transparent 0%), 
-          radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 0.15) 0px, transparent 50%),
-          radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 0.15) 0px, transparent 50%),
-          radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 0.15) 0px, transparent 50%),
-          radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 0.15) 0px, transparent 50%),
-          radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 0.15) 0px, transparent 50%),
-          radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 0.15) 0px, transparent 50%);
-        background-color: hsl(0 0% 100%);
-        font-weight: 80;
-        transition: background-color 0.25s, color 0.25s;
-      }
-      
-      main {
-        padding: 2rem 0;
-        width: 100%;
-      }
+ 
+   
       
       :root:has(#theme:checked) :is(body, .controls, .item) {
         background-color: hsl(0 0% 10%);
@@ -2928,28 +2907,16 @@
       }
       
       article {
-        padding: 2rem;
-        margin: 0 auto;
+    
         width: 100%;
-        box-shadow: 0 10px 20px -5px hsl(0 0% 50% / 0.5);
-        border: 1px solid hsl(0 0% 90%);
-        border-radius: 6px;
-        background: hsl(0 0% 100%);
+ 
         resize: horizontal;
         overflow: hidden;
-        max-width: min(calc(600px + 8rem), calc(100vw - 2rem));
         min-width: 340px;
         container-type: inline-size;
         transition: background-color 0.25s, color 0.25s, border 0.25s, box-shadow 0.25s;
       }
-      h2 {
-        display: flex;
-        gap: 0.25ch;
-        font-size: clamp(1.5rem, 4cqi + 1rem, 3rem);
-        font-weight: 160;
-        margin: 0;
-        grid-column: 1 / -1;
-      }
+   
       
       h2 span:last-of-type {
         display: inline-block;
@@ -2965,14 +2932,7 @@
         }
       }
       
-      .header {
-        display: grid;
-        grid-template: auto 1fr / 6fr 4fr;
-        gap: 1rem;
-        margin-bottom: 2rem;
-        transition: opacity 0.5s;
-      }
-      
+   
       article a {
         align-self: start;
         text-decoration: none;
@@ -2990,11 +2950,7 @@
       article a:is(:hover, :focus-visible) {
         background-position: 100% 0;
       }
-      
-      p {
-        margin: 0;
-      }
-      
+  
       .sr-only {
         position: absolute;
         width: 1px;
@@ -3062,10 +3018,7 @@
         --buff: 3rem;
         height: 100%;
         width: 100%;
-        mask:
-          linear-gradient(transparent, white var(--buff) calc(100% - var(--buff)), transparent),
-          linear-gradient(90deg, transparent, white var(--buff) calc(100% - var(--buff)), transparent);
-        mask-composite: intersect;
+       
       }
       
       :root:has(#overflow:checked) .scene {
@@ -3119,13 +3072,13 @@
         --rotate: 1;
       }
       
-      li {
+      ._li {
         min-height: 60px;
         transform-style: preserve-3d;
         width: 100%;
         z-index: calc(1 + var(--active));
       }
-      li::before {
+      ._li::before {
         content: "";
         position: absolute;
         inset: 4px 4px -2px -2px;
@@ -3140,7 +3093,7 @@
         box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);
       }
       
-      .grid:hover li {
+      .grid:hover  ._li {
         animation-play-state: paused;
       }
       
@@ -3151,9 +3104,8 @@
       
       .item {
         align-items: center;
-        background: hsl(0 0% 100%);
-        border: 1px solid hsl(0 0% 90%);
-        color: hsl(0 0% 10%);
+        background:#1D1E22;
+        border: var(--borderWidth-thin, 1px) solid var(--borderColor-default, var(--color-border-default)) !important;        color: hsl(0 0% 10%);
         border-radius: 6px;
         cursor: pointer;
         display: flex;
@@ -3167,6 +3119,7 @@
         transition: transform var(--transition), scale var(--transition), background-color 0.25s, color 0.25s, border 0.25s, box-shadow 0.25s;;
         scale: calc(1 + (var(--active, 0) * 0.05));
         transform: translate3d(0, 0, calc(var(--active, 0) * 24px));
+        border-radius: 10px;
       }
       .item__icon {
         width: 24px;
