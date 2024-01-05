@@ -2483,8 +2483,227 @@
                           data-target="card-skew.bounding">
 
                           <div class="col-md-6 d-flex" style="align-items: center; ">
-                            <img src="illu-mobile-4d51d19f769e.png" alt="">
+                            <div class="code-editor">	
+                              <span class="control"></span>
+                              <span class="control"></span>
+                              <span class="control"></span>
+                              <pre class="line-numbers language-css">				<code class=" language-css">
+                          <span class="token selector">.agata_cieslak</span><span class="token punctuation">{</span>
+                            <span class="token property">drupal</span><span class="token punctuation">:</span> 7<span class="token punctuation">;</span>
+                            <span class="token property">background</span><span class="token punctuation">:</span> <span class="token url">url("www.agatacieslak.com")</span><span class="token punctuation">;</span>
+                          <span class="token punctuation">}</span>
+                          <span class="token selector">.dead_letter_records</span><span class="token punctuation">{</span>
+                            <span class="token property">drupal</span><span class="token punctuation">:</span> 7 commerce<span class="token punctuation">;</span>
+                            <span class="token property">background</span><span class="token punctuation">:</span> <span class="token url">url("www.deadletterrecords.com")</span><span class="token punctuation">;</span>
+                            &amp;<span class="token selector">:before</span><span class="token punctuation">{</span>
+                              <span class="token property">display</span><span class="token punctuation">:</span> static<span class="token punctuation">;</span>
+                              <span class="token property">cms</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+                            <span class="token punctuation">}</span>
+                        
+                          <span class="token punctuation">}</span>
+                          <span class="token selector">.peepsout</span><span class="token punctuation">{</span>
+                            <span class="token property">drupal</span><span class="token punctuation">:</span> 7<span class="token punctuation">;</span>
+                            <span class="token property">background</span><span class="token punctuation">:</span> <span class="token url">url("www.peepsout.com")</span><span class="token punctuation">;</span> 
+                            <span class="token property">display</span><span class="token punctuation">:</span>none<span class="token punctuation">;</span>// overridden by a wordpress site
+                              &amp;<span class="token selector">;:before</span><span class="token punctuation">{</span>
+                                <span class="token url">url("www.cristinallamas.me/projects/peepsout")</span><span class="token punctuation">;</span>
+                              <span class="token punctuation">}</span>
+                          <span class="token punctuation">}</span>
+                        <span class="token punctuation">}</span>
 
+                        <span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+                        
+                        </div>
+
+
+                        <style>
+                          body {
+  background: #e16a3f;
+  background: #1abc9c;
+  background: #2ecc71;
+}
+
+.code-editor:before,
+.code-editor:after,
+.code-editor span.control:before,
+.code-editor span.after:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  content: '';
+  position: absolute;
+  z-index: 1;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: wall .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+
+
+
+
+
+
+/* -- iPad Screen -- */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .code-editor {
+    width: 500px;
+  }
+
+  .code-editor:before {
+    width: 500px;
+  }
+}
+/* -- iPhone Screen -- */
+@media only screen and (max-width: 479px) {
+  .code-editor {
+    width: 300px;
+  }
+
+  .code-editor:before {
+    width: 300px;
+  }
+}
+/**
+ * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
+ * Based on https://github.com/chriskempson/tomorrow-theme
+ * @author Rose Pritchard
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #ccc;
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  -moz-border-radius: .3em;
+  -o-border-radius: .3em;
+  -webkit-border-radius: .3em;
+}
+
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #999;
+}
+
+.token.punctuation {
+  color: #ccc;
+}
+
+.token.tag,
+.token.attr-name,
+.token.namespace {
+  color: #e2777a;
+}
+
+.token.function-name {
+  color: #6196cc;
+}
+
+.token.boolean,
+.token.number,
+.token.function {
+  color: #f08d49;
+}
+
+.token.property,
+.token.class-name,
+.token.constant,
+.token.symbol {
+  color: #f8c555;
+}
+
+.token.selector,
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.builtin {
+  color: #cc99cd;
+}
+
+.token.string,
+.token.attr-value,
+.token.regex,
+.token.variable {
+  color: #7ec699;
+}
+
+.token.operator,
+.token.entity,
+.token.url {
+  color: #67cdcc;
+}
+
+.token.important {
+  font-weight: bold;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+pre.line-numbers {
+  position: relative;
+  padding-left: 3.8em;
+  counter-reset: linenumber;
+  padding-bottom: 1px;
+}
+
+pre.line-numbers > code {
+  position: relative;
+}
+
+.line-numbers .line-numbers-rows {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  font-size: 100%;
+  left: -13em;
+  width: 3em;
+  /* works for line-numbers below 1000 lines */
+  letter-spacing: -1px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.line-numbers-rows > span {
+  pointer-events: none;
+  display: block;
+  counter-increment: linenumber;
+}
+
+.line-numbers-rows > span:before {
+  content: counter(linenumber);
+  color: #999;
+  display: block;
+  padding-right: 0.8em;
+  text-align: right;
+}
+
+                        </style>
 
                           </div>
 
@@ -2541,62 +2760,7 @@
               </div>
             </div>
 
-            <a
-      target="_blank"
-      rel="noreferrer noopener"
-      class="dev-link"
-      href="https://twitter.com/intent/follow?screen_name=jh3yy"
-      ><svg
-        class="w-9"
-        viewBox="0 0 969 955"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <circle
-          cx="161.191"
-          cy="320.191"
-          r="133.191"
-          stroke="currentColor"
-          stroke-width="20"
-        ></circle>
-        <circle
-          cx="806.809"
-          cy="320.191"
-          r="133.191"
-          stroke="currentColor"
-          stroke-width="20"
-        ></circle>
-        <circle
-          cx="695.019"
-          cy="587.733"
-          r="31.4016"
-          fill="currentColor"
-        ></circle>
-        <circle
-          cx="272.981"
-          cy="587.733"
-          r="31.4016"
-          fill="currentColor"
-        ></circle>
-        <path
-          d="M564.388 712.083C564.388 743.994 526.035 779.911 483.372 779.911C440.709 779.911 402.356 743.994 402.356 712.083C402.356 680.173 440.709 664.353 483.372 664.353C526.035 664.353 564.388 680.173 564.388 712.083Z"
-          fill="currentColor"
-        ></path>
-        <rect
-          x="310.42"
-          y="448.31"
-          width="343.468"
-          height="51.4986"
-          fill="#FF1E1E"
-        ></rect>
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M745.643 288.24C815.368 344.185 854.539 432.623 854.539 511.741H614.938V454.652C614.938 433.113 597.477 415.652 575.938 415.652H388.37C366.831 415.652 349.37 433.113 349.37 454.652V511.741L110.949 511.741C110.949 432.623 150.12 344.185 219.845 288.24C289.57 232.295 384.138 200.865 482.744 200.865C581.35 200.865 675.918 232.295 745.643 288.24Z"
-          fill="currentColor"
-        ></path></svg
-      ><span class="sr-only">jhey.dev</span></a
-    >
+
     <label for="theme">
       <span class="sr-only">Toggle Theme</span>
       <input class="sr-only" type="checkbox" id="theme" />
@@ -5781,15 +5945,8 @@ ranger.addEventListener('input', speedUpdate);
                   </div>
                   <div class="ultimate-tooltip-arrow"></div>
                 </li>
-                <li class="experience__timeline__item has-ultimate-tooltip" tabindex="0">
-                  <h3>2017</h3>
-                  <div class="ultimate-tooltip">
-                    <h4 class="ultimate-tooltip-title">Google Inc.</h4>
-                    <h5 class="ultimate-tooltip-subtitle">Front-End Developer</h5>
-                    <p>Monitored technical aspects of the front-end delivery for projects.</p>
-                  </div>
-                  <div class="ultimate-tooltip-arrow"></div>
-                </li>
+             
+                
                 <li class="experience__timeline__item has-ultimate-tooltip" tabindex="0">
                   <h3>2019</h3>
                   <div class="ultimate-tooltip">

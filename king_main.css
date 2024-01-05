@@ -122771,9 +122771,6 @@ html[dir="rtl"] .notifications .notify-leave {
     transition: all 0.3s ease-in-out;
 }
 
-.d-flex.pt-sm-9 {
-    margin-top: 5vh;
-}
 
 .header .brand-logo {
     position: relative;
