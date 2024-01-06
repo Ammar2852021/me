@@ -3258,17 +3258,15 @@ pre.line-numbers > code {
       }
       
       .grid:hover  ._li {
-        animation-play-state: paused;
-      }
+        animation-play-state: paused;}
       
       .grid {
         transform-style: preserve-3d;
-        gap: 1rem;
-      }
+        gap: 1rem;}
       
       .item {
         align-items: center;
-        background:#1D1E22;
+        background:#1D1E22 !important;
         border: var(--borderWidth-thin, 1px) solid var(--borderColor-default, var(--color-border-default)) !important;        color: hsl(0 0% 10%);
         border-radius: 6px;
         cursor: pointer;
@@ -3284,12 +3282,15 @@ pre.line-numbers > code {
         scale: calc(1 + (var(--active, 0) * 0.05));
         transform: translate3d(0, 0, calc(var(--active, 0) * 24px));
         border-radius: 10px;
-      }
+        color: white !important;}
+
+
       .item__icon {
         width: 24px;
-        color: rgb(124, 58, 237);
-      }
+        color: rgb(124, 58, 237);}
+
       .item__text {
+        font-size: larger !important;
         flex: 1;
         text-align: center;
       }

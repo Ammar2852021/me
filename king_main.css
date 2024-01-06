@@ -23,6 +23,10 @@
  *
  * Released under MIT license. Copyright (c) 2019 GitHub Inc.
  */
+
+
+
+
 :root {
     --h00-size-mobile: 2.5rem;
     --h0-size-mobile: 2rem;
@@ -37131,8 +37135,7 @@ input::-webkit-inner-spin-button {
 }
 
 .mb-2 {
-    margin-bottom: var(--base-size-8, 8px) !important
-    ;
+    margin-bottom: var(--base-size-8, 8px) !important;
     color: white;
     font-family: 'Monoton', cursive !important;
 }
@@ -121525,13 +121528,13 @@ li.portfolio__loadMore {
 }
 
 .folder-card-wrap {
- 
+
     margin: 20px 50px;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 30px !important;
-gap: 10px !important;
+    gap: 10px !important;
 }
 
 .folder-card {
@@ -126494,12 +126497,21 @@ html[dir="rtl"] .contact__form .phone-number .prefix-icon {
 
 a.btn-mktg.home-campaign-enterprise.btn-muted-mktg {
     color: white !important;
-};
+}
+
+;
 
 
 
 div#productivity {
     background: transparent !important;
+}
+
+
+
+
+.code.code-css.feature-card-mktg.rounded-3.color-bg-subtle.border {
+    height: fit-content;
 }
 
 
