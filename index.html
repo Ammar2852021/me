@@ -2042,7 +2042,8 @@
 
                     .code-css {
                       left: 80px;
-                      top: 200px;
+                      top: 141 px;
+                      z-index: 999;
                     }
 
                     .code-js {
@@ -2795,7 +2796,7 @@ pre.line-numbers > code {
         <div class="window">
           <div class="scene">
             <ul class="grid">
-              <li class="_li  border color-bg-subtle ">
+              <li class="_li   ">
                 <div class="item">
                   <div class="item__icon">
                     <svg
@@ -2814,7 +2815,7 @@ pre.line-numbers > code {
                   <div class="item__text">jh3yy</div>
                 </div>
               </li>
-              <li class="_li  border color-bg-subtle ">
+              <li class="_li  ">
                 <div class="item">
                   <div class="item__icon">
                     <svg
@@ -3061,7 +3062,6 @@ pre.line-numbers > code {
         background-color: hsl(0 0% 10%);
         color: hsl(0 0% 100%);
         border-color: hsl(0 0% 25%);
-        box-shadow: 0 10px 20px -5px hsl(0 0% 0% / 0.5);
       }
       :root:has(#theme:checked) .item {
         background-color: black;
@@ -3076,7 +3076,6 @@ pre.line-numbers > code {
  
         resize: horizontal;
         overflow: hidden;
-        min-width: 340px;
         container-type: inline-size;
         transition: background-color 0.25s, color 0.25s, border 0.25s, box-shadow 0.25s;
       }
@@ -3098,16 +3097,12 @@ pre.line-numbers > code {
       
    
       article a {
-        align-self: start;
-        text-decoration: none;
+   
         justify-self: end;
-        border-radius: 100px;
-        padding: 0.5rem 2rem;
-        border: 0;
+   
         color: hsl(0 0% 100%);
         font-weight: 120;
         cursor: pointer;
-        background: linear-gradient(to right, #9333ea, #db2777) 0 0 / 200% 100% no-repeat;
         transition: background-position 0.15s;
       }
       
@@ -3290,7 +3285,7 @@ pre.line-numbers > code {
         color: rgb(124, 58, 237);}
 
       .item__text {
-        font-size: larger !important;
+        font-size: large !important;
         flex: 1;
         text-align: center;
       }
