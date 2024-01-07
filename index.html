@@ -2042,7 +2042,7 @@
 
                     .code-css {
                       left: 80px;
-                      top: 141 px;
+                      top: 141px;
                       z-index: 999;
                     }
 
@@ -3151,11 +3151,16 @@ pre.line-numbers > code {
         padding: 1rem;
         border: 1px solid hsl(0 0% 90%);
         border-radius: 6px;
-        background: hsl(0 0% 100%);
-        position: fixed;
         top: 1rem;
         right: 1rem;
         z-index: 2;
+        background: #1D1E22;
+
+        width: max-content;
+float: right;
+margin: 20px;
+
+
       }
       
       label, input {
@@ -9166,9 +9171,6 @@ ranger.addEventListener('input', speedUpdate);
 
 
 
-  input[type=checkbox] {
-    visibility: hidden;
-  }
 
   .interstitial-wrapper {
     box-sizing: border-box;
@@ -10589,10 +10591,6 @@ ranger.addEventListener('input', speedUpdate);
         order: 1;
       }
 
-      input[type=radio],
-      input[type=checkbox] {
-        display: none;
-      }
 
       .swatch {
         --swatch-size: max(30px, 5em);
@@ -11505,6 +11503,22 @@ ranger.addEventListener('input', speedUpdate);
     top: 0;
     z-index: -1;
   }
+
+
+  .controls::before {
+    --line: hsl(0 0% 95% / 0.25);
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background:
+      linear-gradient(90deg, var(--line) 1px, transparent 1px 10vmin) 0 -5vmin / 10vmin 10vmin,
+      linear-gradient(var(--line) 1px, transparent 1px 10vmin) 0 -5vmin / 10vmin 10vmin;
+    mask: linear-gradient(-15deg, transparent 30%, white);
+    top: 0;
+    z-index: -1;
+  }
+
 </style>
 
 <script>
