@@ -126514,5 +126514,9 @@ div#productivity {
     height: fit-content;
 }
 
+[type=checkbox], [type=radio]{
+    display: none !important;
+}
+
 
 /* asdfghjkl */
