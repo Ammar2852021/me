@@ -122,7 +122,7 @@
 <body>
 
   
-<!-- 
+
 <div class="nav_bar">
   <div class="logo"><img style="    width: 130px;" src="/img/1200x630-02.png" alt=""></div>
 <div class="link_nav">
@@ -145,9 +145,11 @@
   display: flex;
   gap: 10px;
 }
-
+.link_nav a {
+  font-weight: bold;
+}
   </style>
-</div> -->
+</div>
 
 
         
@@ -200,10 +202,8 @@
   
   <div class="coloms_tow">
 <div class="coloms_tow_box">
-  <div class="coloms_tow_box_img"></div>
   <div class="coloms_tow_box_text">
-    Lorem, ipsum dolor.
-    <br>
+    <p>To provide technology services</p>
     <button class="button__">
       <span>Continue</span>
       <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -219,9 +219,10 @@
   transition: all .2s;
   padding: 10px 20px;
   border-radius: 100px;
-  background: #cfef00;
+  background: #2091d0;
   border: 1px solid transparent;
   display: flex;
+  color: white;
   align-items: center;
   font-size: 15px;
 }
@@ -252,6 +253,7 @@
 
   </style>
   </div>
+  <div class="coloms_tow_box_img"></div>
 
 
 </div>
@@ -280,7 +282,7 @@
 
 
 
-<div class="coloms_tow_list"><ul class="main__list">
+<div class="coloms_tow_list"><ul class="main__list" style="float: right;">
 
 
 
@@ -433,13 +435,12 @@ padding: 0 10px;">
 
   <div class="flex" style="gap: 5px;">
     <div class="xcvbn">Web Site</div>  
-  <div class="xcvbn">app mobile</div>  
-  <div class="xcvbn">video</div> 
+  <div class="xcvbn">E-commerce</div> 
+
   </div>   <div class="flex" style="gap: 5px;">
 
-    <div class="xcvbn">color</div>  
-  <div class="xcvbn">ui ux</div>  
-  <div class="xcvbn">grafic</div> 
+    <div class="xcvbn">app mobile</div>  
+    <div class="xcvbn">Graphic Design</div>  
   </div> 
 <style>
   .xcvbn{
@@ -451,11 +452,85 @@ padding: 0 10px;">
 </style>
 </div>
 
+<div class="coloms_tow_list"><ul class="main__list">
 
 
-<div class="pig_code">
-  <p>Lorem ipsum dolor sit amet.</p>
-  <h1>Lorem ipsum dolor sit amet.</h1>
+
+  <li class="main__list-item">
+    
+    <div class="main__list-content-wrap">
+    </div>
+  </li>
+
+  <li class="main__list-item">
+    <div class="main__list-content-wrap">
+    </div>
+  </li>
+
+
+
+
+</ul></div>
+
+
+
+
+
+<div class="coloms_tow_box">
+  <div class="coloms_tow_box_img"></div>
+  <div class="coloms_tow_box_text">
+    <p>To provide technology services</p>
+    <button class="button__">
+      <span>Continue</span>
+      <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
+          <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="black"></path>
+      </svg>
+  </button>
+  <style>
+    .button__ {
+  cursor: pointer;
+  font-weight: 700;
+  font-family: Helvetica,"sans-serif";
+  transition: all .2s;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: #2091d0;
+  border: 1px solid transparent;
+  display: flex;
+  color: white;
+  align-items: center;
+  font-size: 15px;
+}
+
+.button__:hover {
+  background: #c4e201;
+}
+
+.button__ > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform .3s ease-in-out;
+}
+
+.button__:hover svg {
+  transform: translateX(5px);
+}
+
+.button__:active {
+  transform: scale(0.95);
+}
+.coloms_tow_box_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+}
+
+  </style>
+  </div>
+
+
 </div>
 
   </div>
@@ -501,7 +576,7 @@ padding: 0 10px;">
 }
   
   
-  .coloms_tow_box{ height: 20vh; background: #eee; border-radius: 10px; margin: 0 10px;
+  .coloms_tow_box{ height: 30vh; background: #eee; border-radius: 10px; margin: 0 10px;
   
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -511,14 +586,19 @@ padding: 0 10px;">
   
   
   
-  .coloms_tow_box_img {background: black; margin: 10px; border-radius: 10px;}
+  .coloms_tow_box_img {background-image: url(/img/3ce126186323803\(1\).657339278fe59.png);
+    
+    background-size: cover;
+    background-position: center center;
+     margin: 10px; border-radius: 10px;}
   .coloms_tow_box_text{ margin: 10px; border-radius: 10px;}
   
   
   .coloms_three{
-      background: black;
       border-radius: 20px;
       position: relative;
+      background-image: url(/img/96027950411735.58d02174b3592.jpg);
+      background-size: cover;
   
   }
   
@@ -541,14 +621,7 @@ padding: 0 10px;">
 
 </div>
 
-                    <div class="d-flex flex-column flex-md-row">
-
-
-
-                      <div class="border-top border-md-left mx-md-3 mb-3 mb-md-0"></div>
-
-                
-                    </div>
+            
 
 
                     <div class="my-3 my-md-4 build-in-animate col-12">
@@ -564,330 +637,6 @@ padding: 0 10px;">
 
 
 
-
-            <main>
-              <div class="we">
-                <div class="text">
-                    
-                    <link rel="preconnect" href="https://fonts.googleapis.com">
-                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-                    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
-                    <h1 style="margin: 10px 0;">Using the <span>&lt;details&gt;</span> tag to create tabs</h1>
-                    <div class="details-tabs">
-                        <details class="details-item" open=""> <!-- default first "tab" to open -->
-                            <summary class="details-tab">The details tag</summary>
-                            <div class="details-content">
-                                <p>Imagine an <strong>accordion-like element</strong> with <strong>native keyboard support</strong> that doesn't require javascript for control.</p>
-                                <p>Enter the details tag.</p>
-                                <details>
-                                    <summary>The details tag</summary>
-                                    <p>This is a details tag with content</p>
-                                </details>
-                                <p>The details tag gives us a simple accordion with no scripts—that's great! But it feels like it could be something more...imagine if it could do tabs.</p>
-                            </div>
-                        </details>
-                        <details class="details-item">
-                            <summary class="details-tab">What about tabs?</summary>
-                            <div class="details-content">
-                                <p>Tabs and accordions work in technically the same way, although tabs typically require a shared parent container and containers to build out the tabs and content separate from each other.</p>
-                                <p>Interactivity is another difference: the ways accordions or tabs are toggled. With accordions it's common to be able to open and close them individually, but with tabs there must always be one, and only one, open.</p>
-                                <p>At first glance there doesn't seem to be a way to make this work. The structure isn't right. The layout isn't right. The functionality isn't quite right. But each of those problems can be solved if we look a bit closer.</p>
-                            </div>
-                        </details>
-                        <details class="details-item">
-                            <summary class="details-tab">CSS trickery</summary>
-                            <div class="details-content">
-                                <p>With a little help from the <strong>display: contents;</strong> property, we can transform a group of discrete details tags with tab and content area elements as children, into a group of the tab and content area elements from all the details elements mixed together.</p>
-                                <p>Say you had 3 small buckets of red and blue balls. The buckets can interact with each other or bang together, but the balls inside each bucket can't interact with the balls from the other buckets.</p>
-                                <p>You could think of what we are doing like pouring all of the small buckets into a larger bucket. Now all of the balls can interact with each other and we can organize them by color in the bigger bucket. With display: contents; it's as if the details tag isn't there at all—at least visually.</p>
-                                <p>Now that all the tab and content area elements can interact with each other in the flow of the page, we can use <strong>display: flex;</strong> and <strong>order</strong> to make the tabs flow nicely but also be separate from the content area.</p>
-                                <p>And that's what you see here! Open up the inspector and have a look.</p>
-                            </div>
-                        </details>
-                        <details class="details-item">
-                            <summary class="details-tab">UX patches with javascript</summary>
-                            <div class="details-content">
-                                <p>So you might have thought we could get by without any JS, but we need it a little. Luckily it's the type of script that you can write once and reuse without reconfiguration.</p>
-                                <p>The default functionality of the details tab means that it can be toggled open or closed. That's not what we want for tabs. Each details tag must be manually closed and then another opened. We want a tab to stay open and then close when another is picked.</p>
-                                <p>By watching for attribute changes and blocking keyboard and mouse input from toggling a details tab when a tab is open, we can emulate the expected tab behavior.</p>
-                                <p>Then it's just a matter of toggling the sibling details tags when another is selected.</p>
-                            </div>
-                        </details>
-                    </div>
-                
-                
-                </div>
-                
-                    <style>
-                .text {
-                    margin: 10px;
-                    font-size: medium;
-
-                    padding: 0 63px;
-                }
-                
-                .details-tab {
-                  padding: 0.5rem 1rem;
-                  font-size: 1.1rem;
-                  color: #ffffffcc;
-                  font-weight: 600;
-                  display: block;
-                  order: 0;
-                  background: #ffffff13;
-                  border-radius: 1.5rem;
-                  margin-right: 0.35rem;
-                  margin-bottom: 0.5rem;
-                  cursor: pointer;
-                  border: 2px solid transparent;
-                }
-                .details-tab:hover, .details-tab:focus {
-                  border-color: #fff;
-                }
-                .details-tab::-webkit-details-marker {
-                  display: none;
-                }
-                
-                .details-tabs {
-                  position: relative;
-                
-                  display: flex;
-                  flex-wrap: wrap;
-                  gap: 10px;
-                }
-                
-                .details-content {
-                  order: 1;
-                  padding: 1rem;
-                  width: 100%;
-                }
-            
-                .details-content details summary {
-                  font-weight: 600;
-                }
-                
-                .details-item {
-                  display: contents;
-                }
-                .details-item[open] > .details-tab {
-                  background: #fff;
-                  color: #333;
-                }
-                    </style>
-                
-                    <!-- quick fix to load assets from github -->
-                <base href="https://rawcdn.githack.com/MuhammadHasann/component-frontend/7e3a0bced6f1b050e8d0b621f2a3a6e7b1cb06d3/section/category%20card-2/">
-                <!-- lazy dog credit note -->
-                
-                
-                
-                
-                <section class="container" style="
-                padding: 0 !important ;height: 60vh;" >
-                    <div class="category_container">
-                        <div class="content">
-                            <img src="assets/UI UX Designer.jpg" class="professio_image" alt="Profession">
-                            <img src="assets/John Doe.jpg" class="profile_image" alt="Profile">
-                            <div class="profile_detail">
-                                <span>John Doe</span>
-                                <p>UI/UX Designer + Graphic Designer</p>
-                            </div>
-                
-                            <div class="wrapper">			
-                                <div class="profile_quote">
-                                    <p>"UI is the saddle, the stirrups, &amp; the reins. UX is the feeling you get being able to ride the horse."</p>
-                                </div>
-                            </div>
-                
-                        </div>
-                        <div class="content">
-                            <img src="assets/Photographer.jpg" class="profession_image" alt="Profession">
-                            <img src="assets/Prince Akashi.jpg" class="profile_image" alt="Profile">
-                            <div class="profile_detail">
-                                <span>Prince Akashi</span>
-                                <p>Photographer + Model</p>
-                            </div>
-                            <div class="wrapper">				
-                                <div class="profile_quote">
-                                    <p>"If you see something that moves you, and then snap it, you keep a moment."</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <img src="assets/Fashion Designer.jpg" class="profession_image" alt="Profession">
-                            <img src="assets/Rafaella Mendes.jpg" class="profile_image" alt="Profile">
-                            <div class="profile_detail">
-                                <span>Rafaella Mendes</span>
-                                <p>Fashion Designer + Model</p>
-                            </div>
-                            <div class="wrapper">				
-                                <div class="profile_quote">
-                                    <p>"My mission in life is not merely to survive, but to thrive and to do so with some passion, some compassion, some humor, and some style."</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                
-                <style>
-                    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-                * {
-                  padding: 0;
-                  margin: 0;
-                  box-sizing: border-box;
-                }
-                
-                body {
-                  font-family: "Inter", sans-serif;
-                  background: white !important;
-                  color: black !important;
-                }
-                
-                :root {
-                  --light: #ffe6e6;
-                  --dark: #0c0c0c;
-                }
-                
-     
-                
-                .category_container {
-                  --gap: 0.5rem;
-                  display: flex;
-                  justify-content: space-between;
-                  align-items: center;
-                  flex-wrap: nowrap;
-                  gap: calc(var(--gap) * 2);
-                  width: 100%;
-                  height: 100%;
-                }
-                
-                .content {
-                  --active: 0;
-                  cursor: pointer;
-                  overflow: clip;
-                  position: relative;
-                  z-index: 10;
-                  display: flex;
-                  flex-direction: column;
-                  justify-content: flex-end;
-                  gap: 1.5rem;
-                  padding: 2.5rem;
-                  width: calc((100% / 3) - var(--gap));
-                  height: 100%;
-                  border-radius: 1rem;
-                  transition: width 0.5s ease-in-out;
-                }
-                
-                .content:hover {
-                  --active: 1;
-                  width: calc(70% - var(--gap));
-                }
-                
-                .content::before {
-                  content: "";
-                  position: absolute;
-                  z-index: -10;
-                  top: 0;
-                  left: 0;
-                  width: 100%;
-                  height: 100%;
-                  background-color: var(--dark);
-                  opacity: 0.6;
-                }
-                
-                .content img {
-                  position: absolute;
-                  z-index: -20;
-                  top: 0;
-                  left: 0;
-                  width: 100%;
-                  height: 100%;
-                  -o-object-fit: cover;
-                     object-fit: cover;
-                  -o-object-position: center;
-                     object-position: center;
-                }
-                
-                .content .profile_image {
-                  opacity: calc(1 - var(--active));
-                  transition: opacity 0.3s ease-in-out;
-                }
-                
-                .profile_detail {
-                  display: flex;
-                  flex-direction: column;
-                  gap: 0.5rem;
-                  width: 12rem;
-                  transition: transform 0.5s cubic-bezier(0.23, 0.93, 0.77, 1) 0.01s;
-                }
-                
-                .profile_detail span {
-                  font-size: 1.5rem;
-                  font-weight: 600;
-                  color: var(--light);
-                  text-wrap: nowrap;
-                }
-                
-                .profile_detail p {
-                  font-size: 0.75rem;
-                  font-weight: 500;
-                  color: var(--light);
-                }
-                
-                .profile_quote {
-                  width: 22rem;
-                  transform: translate(0, calc((1 - var(--active)) * (100% + 2.5rem)));
-                }
-                
-                .profile_quote p {
-                  font-size: 1.5rem;
-                  font-weight: 600;
-                  color: var(--light);
-                  transform: translate(0, calc((1 - var(--active)) * (100% + 2.5rem)));
-                  transition: transform 0.5s cubic-bezier(0.23, 0.93, 0.77, 1) 0.1s;
-                }
-                
-                .wrapper {
-                  display: grid;
-                  grid-template-rows: 0fr;
-                  overflow: hidden;
-                  transition: grid-template-rows 0.5s cubic-bezier(0.23, 0.93, 0.77, 1) 0.01s;
-                  transition: grid-template-rows 0.5s cubic-bezier(0.23, 0.93, 0.77, 1) 0.01s, -ms-grid-rows 0.5s cubic-bezier(0.23, 0.93, 0.77, 1) 0.01s;
-                }
-                
-                .profile_quote {
-                  min-height: 0;
-                  transform: translateY(50%);
-                  opacity: 0;
-                  transition: opacity 0.8s ease-in-out, transform 0.8s cubic-bezier(0.23, 0.93, 0.77, 1) 0.01s;
-                }
-                
-                .content:hover .wrapper {
-                  grid-template-rows: 1fr;
-                }
-                
-                .content:hover .profile_quote {
-                  transform: none;
-                  opacity: 1;
-                }
-                
-                dialog {
-                  position: absolute;
-                  z-index: 1;
-                  background: none;
-                  color: white;
-                  border: 0;
-                  font-size: 0.8rem;
-                  padding: 0.5em;
-                }
-                
-                dialog a {
-                  color: whitesmoke;
-                }
-                </style>
-                  </div>
-
-
-            </main>
 
 
             <div class="d-flex flex-column flex-md-row gutter js-build-in-trigger build-in-animate"
@@ -995,7 +744,7 @@ padding: 0 10px;">
                   </div>
 
                   <div class="home-campaign-git-line height-full rounded js-build-in-item build-in-scale-top"
-                    style="background: linear-gradient(rgb(63, 185, 80), rgb(46, 160, 67), transparent); transition-delay: 500ms;"
+                    style="background: linear-gradient(#2091d0, #2091d0, transparent); transition-delay: 500ms;"
                     data-build-delay="500"></div>
                 </div>
 
@@ -1011,14 +760,14 @@ padding: 0 10px;">
                 <div class="col-1 d-flex flex-column flex-items-center position-relative">
                   <div
                     class="home-campaign-git-line height-full position-relative z-1 js-build-in-item build-in-scale-top"
-                    style="transition-duration: 900ms; background: linear-gradient(transparent, rgb(63, 185, 80), rgb(63, 185, 80), transparent); transition-delay: 0ms;">
+                    style="transition-duration: 900ms; background: linear-gradient(transparent, #2091d0, #2091d0, transparent); transition-delay: 0ms;">
                   </div>
 
                 </div>
 
                 <div class="col-11 ml-2 ml-md-6">
 
-                  <div class="mb-6 mb-md-7 pb-4 js-build-in-trigger">
+                  <div class="js-build-in-trigger">
                     <div
                       class="py-3 text-left col-sm-8 col-md-7 col-lg-6 col-xl-5 js-build-in-item build-in-slideX-left"
                       style="transition-delay: 600ms;">
@@ -1026,15 +775,11 @@ padding: 0 10px;">
                         style="top: -1px">
                       </div>
 
-                      <h3 class="h5-mktg mb-4 text-medium js-build-in-item build-in-slideX-left"
-                        style="transition-delay: 200ms;">Customer opinions</h3>
-                      <h2 class="h3-mktg mb-4 text-medium js-build-in-item build-in-slideX-left"
+                      
+                        <h2 class="h3-mktg mb-4 text-medium js-build-in-item build-in-slideX-left"
                         style="transition-delay: 300ms;">
-                        <span class="text-accent-primary d-block">Empower developers</span> With GitHub, you can
-                        secure
-                        code
-                        in minutes.
-                      </h2>
+                        <span class="text-accent-primary d-block" style="color: #2091d0;" >Abut Us</span> 
+                        Some information about                      </h2>
                     </div>
                   </div>
                 </div>
@@ -1064,11 +809,302 @@ padding: 0 10px;">
 
 
 
+          <main>
+            <div class="we">
+              <div class="text">
+                  
+                  <link rel="preconnect" href="https://fonts.googleapis.com">
+                  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+                  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+                  <div class="details-tabs">
+                      <details class="details-item" open=""> <!-- default first "tab" to open -->
+                          <div class="details-content">
+                            <p>founded Appnest company by three young Jerusalemites 2023, our goal is to provide customized and efficient web development solutions that enhance our clients' digital presence, with a commitment to high quality, swift execution, and the use of the latest technologies to ensure an exceptional user experience and tangible business results.</p>
+                          
+                          </div>
+                      </details>
+             
+                    
+                  </div>
+              
+              
+              </div>
+              
+                  <style>
+              .text {
+                  margin: 10px;
+                  font-size: medium;
+
+                  padding: 0 63px;
+              }
+              
+              .details-tab {
+                padding: 0.5rem 1rem;
+                font-size: 1.1rem;
+                color: #ffffffcc;
+                font-weight: 600;
+                display: block;
+                order: 0;
+                background: #ffffff13;
+                border-radius: 1.5rem;
+                margin-right: 0.35rem;
+                margin-bottom: 0.5rem;
+                cursor: pointer;
+                border: 2px solid transparent;
+              }
+              .details-tab:hover, .details-tab:focus {
+                border-color: #fff;
+              }
+              .details-tab::-webkit-details-marker {
+                display: none;
+              }
+              
+              .details-tabs {
+                position: relative;
+              
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+              }
+              
+              .details-content {
+                order: 1;
+                width: 100%;
+                color:black;
+              }
+          
+              .details-content details summary {
+                font-weight: 600;
+              }
+              
+              .details-item {
+                display: contents;
+              }
+              .details-item[open] > .details-tab {
+                background: #fff;
+                color: #333;
+              }
+                  </style>
+              
+                  <!-- quick fix to load assets from github -->
+              <base href="https://rawcdn.githack.com/MuhammadHasann/component-frontend/7e3a0bced6f1b050e8d0b621f2a3a6e7b1cb06d3/section/category%20card-2/">
+              <!-- lazy dog credit note -->
+              
+              
+              
+              
+              <section class="container" style="
+              padding: 0 !important ;height: 60vh;" >
+                  <div class="category_container">
+                      <div class="content">
+                          <img src="assets/UI UX Designer.jpg" class="professio_image" alt="Profession">
+                          <img src="assets/John Doe.jpg" class="profile_image" alt="Profile">
+                          <div class="profile_detail">
+                              <span>John Doe</span>
+                              <p>UI/UX Designer + Graphic Designer</p>
+                          </div>
+              
+                          <div class="wrapper">			
+                              <div class="profile_quote">
+                                  <p>"UI is the saddle, the stirrups, &amp; the reins. UX is the feeling you get being able to ride the horse."</p>
+                              </div>
+                          </div>
+              
+                      </div>
+                      <div class="content">
+                          <img src="assets/Photographer.jpg" class="profession_image" alt="Profession">
+                          <img src="assets/Prince Akashi.jpg" class="profile_image" alt="Profile">
+                          <div class="profile_detail">
+                              <span>Prince Akashi</span>
+                              <p>Photographer + Model</p>
+                          </div>
+                          <div class="wrapper">				
+                              <div class="profile_quote">
+                                  <p>"If you see something that moves you, and then snap it, you keep a moment."</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="content">
+                          <img src="assets/Fashion Designer.jpg" class="profession_image" alt="Profession">
+                          <img src="assets/Rafaella Mendes.jpg" class="profile_image" alt="Profile">
+                          <div class="profile_detail">
+                              <span>Rafaella Mendes</span>
+                              <p>Fashion Designer + Model</p>
+                          </div>
+                          <div class="wrapper">				
+                              <div class="profile_quote">
+                                  <p>"My mission in life is not merely to survive, but to thrive and to do so with some passion, some compassion, some humor, and some style."</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+              
+              <style>
+                  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+              * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+              }
+              
+              body {
+                font-family: "Inter", sans-serif;
+                background: white !important;
+                color: black !important;
+              }
+              
+              :root {
+                --light: #ffe6e6;
+                --dark: #0c0c0c;
+              }
+              
+   
+              
+              .category_container {
+                --gap: 0.5rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: nowrap;
+                gap: calc(var(--gap) * 2);
+                width: 100%;
+                height: 100%;
+              }
+              
+              .content {
+                --active: 0;
+                cursor: pointer;
+                overflow: clip;
+                position: relative;
+                z-index: 10;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                gap: 1.5rem;
+                padding: 2.5rem;
+                width: calc((100% / 3) - var(--gap));
+                height: 100%;
+                border-radius: 1rem;
+                transition: width 0.5s ease-in-out;
+              }
+              
+              .content:hover {
+                --active: 1;
+                width: calc(70% - var(--gap));
+              }
+              
+              .content::before {
+                content: "";
+                position: absolute;
+                z-index: -10;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: var(--dark);
+                opacity: 0.6;
+              }
+              
+              .content img {
+                position: absolute;
+                z-index: -20;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                -o-object-fit: cover;
+                   object-fit: cover;
+                -o-object-position: center;
+                   object-position: center;
+              }
+              
+              .content .profile_image {
+                opacity: calc(1 - var(--active));
+                transition: opacity 0.3s ease-in-out;
+              }
+              
+              .profile_detail {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                width: 12rem;
+                transition: transform 0.5s cubic-bezier(0.23, 0.93, 0.77, 1) 0.01s;
+              }
+              
+              .profile_detail span {
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: var(--light);
+                text-wrap: nowrap;
+              }
+              
+              .profile_detail p {
+                font-size: 0.75rem;
+                font-weight: 500;
+                color: var(--light);
+              }
+              
+              .profile_quote {
+                width: 22rem;
+                transform: translate(0, calc((1 - var(--active)) * (100% + 2.5rem)));
+              }
+              
+              .profile_quote p {
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: var(--light);
+                transform: translate(0, calc((1 - var(--active)) * (100% + 2.5rem)));
+                transition: transform 0.5s cubic-bezier(0.23, 0.93, 0.77, 1) 0.1s;
+              }
+              
+              .wrapper {
+                display: grid;
+                grid-template-rows: 0fr;
+                overflow: hidden;
+                transition: grid-template-rows 0.5s cubic-bezier(0.23, 0.93, 0.77, 1) 0.01s;
+                transition: grid-template-rows 0.5s cubic-bezier(0.23, 0.93, 0.77, 1) 0.01s, -ms-grid-rows 0.5s cubic-bezier(0.23, 0.93, 0.77, 1) 0.01s;
+              }
+              
+              .profile_quote {
+                min-height: 0;
+                transform: translateY(50%);
+                opacity: 0;
+                transition: opacity 0.8s ease-in-out, transform 0.8s cubic-bezier(0.23, 0.93, 0.77, 1) 0.01s;
+              }
+              
+              .content:hover .wrapper {
+                grid-template-rows: 1fr;
+              }
+              
+              .content:hover .profile_quote {
+                transform: none;
+                opacity: 1;
+              }
+              
+              dialog {
+                position: absolute;
+                z-index: 1;
+                background: none;
+                color: white;
+                border: 0;
+                font-size: 0.8rem;
+                padding: 0.5em;
+              }
+              
+              dialog a {
+                color: whitesmoke;
+              }
+              </style>
+                </div>
+
+
+          </main>
 
 
 
 
-<!-- newwwwwwwwwwwwwww
+
 
 
           <div class="d-flex position-relative">
@@ -1076,7 +1112,7 @@ padding: 0 10px;">
               class="col-1 d-flex flex-column flex-items-center position-relative js-build-in-trigger build-in-animate">
               <div
                 class="home-campaign-git-line height-full position-relative z-1 js-build-in-item build-in-scale-top build-in-animate"
-                style="transition-duration: 1100ms; background: linear-gradient(transparent, #F778BA, #F778BA, transparent);">
+                style="transition-duration: 1100ms; background: linear-gradient(transparent, #2091d0, #2091d0, transparent);">
               </div>
  
             </div>
@@ -1090,19 +1126,16 @@ padding: 0 10px;">
                     style="top: -1px">
                   </div>
 
-                  <h3 class="h5-mktg mb-4 text-medium js-build-in-item build-in-slideX-left build-in-animate"
-                    style="transition-delay: 200ms;">Customer opinions</h3>
-                  <h2 class="h3-mktg mb-4 text-medium js-build-in-item build-in-slideX-left build-in-animate"
+             
+                    <h2 class="h3-mktg mb-4 text-medium js-build-in-item build-in-slideX-left"
                     style="transition-delay: 300ms;">
-                    <span class="text-accent-primary d-block">Empower developers</span> With GitHub, you can secure
-                    code
-                    in minutes.
-                  </h2>
+                    <span class="text-accent-primary d-block" style="color: #2091d0;" >my Services</span> 
+                    Services we provide                  </h2>
                 </div>
               </div>
             </div>
           </div>
- -->
+
 
 
 
@@ -1120,11 +1153,10 @@ padding: 0 10px;">
                               <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
                                   <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><i aria-hidden="true"
                                           class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">😈</i></div>
-                                  <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">Escape tutorial
-                                      hell</h3>
+                                  <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">
+                                    Applications development</h3>
                                   <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
-                                      knowledge to the test. The real learning happens when you start solving real-world problems
-                                      yourself.</p>
+                                    developing web and mobile applications using the latest technologies to deliver innovative digital solutions. Our goal is to enhance our clients' online presence with effective applications that meet their needs and achieve their objectives</p>
                               </div>
                           </div>
                       </div>
@@ -1141,11 +1173,10 @@ padding: 0 10px;">
                               <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
                                   <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><i aria-hidden="true"
                                           class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">😈</i></div>
-                                  <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">Escape tutorial
-                                      hell</h3>
+                                  <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">E-commerce
+                                      </h3>
                                   <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
-                                      knowledge to the test. The real learning happens when you start solving real-world problems
-                                      yourself.</p>
+                                    comprehensive e-commerce solutions that empower businesses to sell online with ease. Our services include custom website design, secure payment integration, and effective inventory management, all tailored to enhance your online store's performance and customer experience.</p>
                               </div>
                           </div>
                       </div>
@@ -1170,11 +1201,10 @@ padding: 0 10px;">
                               <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
                                   <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><i aria-hidden="true"
                                           class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">😈</i></div>
-                                  <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">Escape tutorial
-                                      hell</h3>
+                                  <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">
+                                    Application management</h3>
                                   <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
-                                      knowledge to the test. The real learning happens when you start solving real-world problems
-                                      yourself.</p>
+                                    comprehensive management services for apps and websites, ensuring their optimal performance and security. Our team provides regular updates, maintenance, and technical support to keep your digital assets running smoothly and efficiently.</p>
                               </div>
                           </div>
                       </div>
@@ -1199,11 +1229,9 @@ padding: 0 10px;">
                               <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
                                   <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><i aria-hidden="true"
                                           class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">😈</i></div>
-                                  <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">Escape tutorial
-                                      hell</h3>
+                                  <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">Web development</h3>
                                   <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
-                                      knowledge to the test. The real learning happens when you start solving real-world problems
-                                      yourself.</p>
+                                    Designing and developing web pages that are visually appealing, user-friendly, and optimized for performance. Our team creates custom solutions tailored to your specific needs, ensuring a seamless and engaging online experience for your audience</p>
                               </div>
                           </div>
                       </div>
@@ -1231,11 +1259,10 @@ padding: 0 10px;">
                               <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
                                   <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><i aria-hidden="true"
                                           class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">😈</i></div>
-                                  <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">Escape tutorial
-                                      hell</h3>
+                                  <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">Graphic Design
+                                      </h3>
                                   <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
-                                      knowledge to the test. The real learning happens when you start solving real-world problems
-                                      yourself.</p>
+                                    creating visually stunning graphic designs that effectively communicate your brand's message. Our services include logo design, branding, print materials, and digital graphics, all tailored to elevate your visual identity and engage your audience.</p>
                               </div>
                           </div>
                       </div>
@@ -1246,6 +1273,26 @@ padding: 0 10px;">
           
           
           
+          
+
+
+              <div class="grid_photo" data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom">
+                  <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-5.webp);"></div>
+                  <div class="text_grid">
+                      <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
+                          <div class="content-wrapper">
+                              <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
+                                  <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><i aria-hidden="true"
+                                          class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">😈</i></div>
+                                  <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">Security and protection
+                                      </h3>
+                                  <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH"> Robost security and protection services safeguard your digital assets. Our solutions include threat detection, encryption, firewalls, and regular security audits to ensure the integrity and confidentiality of your data and systems.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           
           
           
@@ -1358,7 +1405,7 @@ padding: 0 10px;">
 
 
               <div class="home-campaign-git-line height-full rounded js-build-in-item build-in-scale-top"
-                style="background: linear-gradient(rgb(51, 179, 174) 40%, transparent); transition-delay: 500ms;"
+                style="background: linear-gradient(#2091d0, transparent); transition-delay: 500ms;"
                 data-build-delay="500"></div>
             </div>
 
@@ -1391,13 +1438,10 @@ padding: 0 10px;">
 
 
             <div class="col-11 col-lg-7 ">
-              <h3 class="h5-mktg mb-4 text-medium js-build-in-item build-in-slideX-left"
-                style="transition-delay: 200ms;">Services</h3>
               <h2 class="h3-mktg mb-4 text-medium js-build-in-item build-in-slideX-left"
                 style="transition-delay: 300ms;">
-                <span class="text-accent-primary d-block">my Services</span> With GitHub, you can secure
-                code
-                in minutes.
+                <span class="text-accent-primary d-block" style="color: #2091d0;" >contact us</span> You can contact us by email or phone number
+             
               </h2>
             </div>
 
@@ -1410,32 +1454,7 @@ padding: 0 10px;">
               class="color-bg-subtle border rounded-3 p-2 p-lg-6 js-build-in-trigger feature-card-mktg z-1 position-relative"
               data-target="card-skew.bounding" data-build-in-stagger="200">
 
-              <div class="position-relative  flex-md-row gutter-spacious ">
-
-
-
-
-
-
-
-                <div class=" js-build-in-item build-in-scale-right" style="transition-delay: 600ms;">
-
-
-
-
-
-
-
-
-                  <div class="p-4 rounded-bottom-2 rounded-right-2 box-shadow-mktg-xl ">
-
-
-
-                
-
-                  </div>
-                </div>
-              </div>
+        
               <div data-target="card-skew.shine" class="position-absolute bottom-0 right-0 events-none z-n1">
               </div>
             </div>
@@ -1449,154 +1468,6 @@ padding: 0 10px;">
         </div>
 
 
-<div class="_main">
-  <section class="c-section">
-    <ul class="c-services">
-      <li class="c-services__item">
-        <h3>Applications development</h3>
-        <p>developing web and mobile applications using the latest technologies to deliver innovative digital solutions. Our goal is to enhance our clients' online presence with effective applications that meet their needs and achieve their objectives
-        </p>
-      </li>
-      <li class="c-services__item">
-        <h3>Web development</h3>
-        <p>Designing and developing web pages that are visually appealing, user-friendly, and optimized for performance. Our team creates custom solutions tailored to your specific needs, ensuring a seamless and engaging online experience for your audience
-        </p>
-      </li>
-      <li class="c-services__item">
-        <h3>E-commerce</h3>
-        <p>comprehensive e-commerce solutions that empower businesses to sell online with ease. Our services include custom website design, secure payment integration, and effective inventory management, all tailored to enhance your online store's performance and customer experience.
-        </p>
-      </li>
-      <li class="c-services__item">
-        <h3>Application management</h3>
-        <p>comprehensive management services for apps and websites, ensuring their optimal performance and security. Our team provides regular updates, maintenance, and technical support to keep your digital assets running smoothly and efficiently.
-        </p>
-      </li>
-      <li class="c-services__item">
-        <h3>Graphic Design </h3>
-        <p>
-          creating visually stunning graphic designs that effectively communicate your brand's message. Our services include logo design, branding, print materials, and digital graphics, all tailored to elevate your visual identity and engage your audience.
-          </p>
-      </li>
-      <li class="c-services__item">
-        <h3> Security and protection</h3>
-        <p>Robost security and protection services safeguard your digital assets. Our solutions include threat detection, encryption, firewalls, and regular security audits to ensure the integrity and confidentiality of your data and systems.</p>
-      </li>
-    </ul>
-  </section>
-  
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-
-
-  <style>
-
-
-/* .c-section {
-  padding: 0 90px;
-} */
-
-li.c-services__item {
-    border-radius: 10px;
-}
-
-.c-services {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: grid;
-  color: black;
-  gap: 10px;
-}
-@media (min-width: 550px) {
-  .c-services {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-@media (min-width: 800px) {
-  .c-services {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-.c-services__item {
-  padding: 16px;
-  position: relative;
-}
-.c-services__item::before {
-  content: "";
-  display: block;
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-top: 20px solid rgba(0, 0, 0, 0.03);
-  border-right: 20px solid rgba(0, 0, 0, 0.03);
-  border-left: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-}
-.c-services__item h3 {
-  margin-top: 0;
-}
-.c-services__item p {
-  margin-bottom: 0;
-}
-.c-services__item h3 {
-  position: relative;
-}
-.c-services__item h3::after {
-  content: "";
-  display: block;
-  background: orange;
-  width: 30px;
-  height: 5px;
-  border-radius: 20px;
-  margin-top: 12px;
-}
-
-.c-services__item:nth-child(1) {
-  background: #f0f8ff;
-}
-.c-services__item:nth-child(1) h3::after {
-  background: #bce0ff;
-}
-
-.c-services__item:nth-child(2) {
-  background: #f8f8ff;
-}
-.c-services__item:nth-child(2) h3::after {
-  background: #d2d2ff;
-}
-
-.c-services__item:nth-child(3) {
-  background: #fff5ee;
-}
-.c-services__item:nth-child(3) h3::after {
-  background: #fedac0;
-}
-
-.c-services__item:nth-child(4) {
-  background: #f0fff0;
-}
-.c-services__item:nth-child(4) h3::after {
-  background: #c9fec9;
-}
-
-.c-services__item:nth-child(5) {
-  background: #fff0f5;
-}
-.c-services__item:nth-child(5) h3::after {
-  background: #fec4d7;
-}
-
-.c-services__item:nth-child(6) {
-  background: #f0ffff;
-}
-.c-services__item:nth-child(6) h3::after {
-  background: #c7ffff;
-}
-  </style>
-</div>
 
 
 
@@ -1606,108 +1477,12 @@ li.c-services__item {
 
 
 
-
-
-
-        <div class="col-1 d-flex flex-column flex-items-center js-build-in-trigger">
-          <div class="home-campaign-git-line mt-n3 mt-md-n4 mb-n8 rounded js-build-in-item build-in-scale-top"
-            style="height: 160px; background: linear-gradient(transparent, #F778BA 40%);"></div>
-        </div>
 
       </div>
     </div>
-    <div class="home-campaign-collaboration js-section pt-5 px-3 overflow-hidden" data-color-mode="dark"
-      data-light-theme="light" data-dark-theme="dark" id="collaboration" style="background: transparent !important;">
-      <div class="container-xl">
-
-        <div class="d-flex js-build-in-trigger position-relative" data-build-in-stagger="100">
-          <div class="col-1 d-flex flex-column flex-items-center">
-            <div class="mb-4 position-relative home-campaign-glowing-icon js-build-in-item build-in-scale-fade"
-              style="transition-delay: 0ms;">
-              <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24"
-                data-view-component="true" class="octicon octicon-code-of-conduct">
-                <path
-                  d="M2.828 4.328C5.26 1.896 9.5 1.881 11.935 4.317c.024.024.046.05.067.076 1.391-1.078 2.993-1.886 4.777-1.89a6.22 6.22 0 0 1 4.424 1.825c.559.56 1.023 1.165 1.34 1.922.318.756.47 1.617.468 2.663 0 2.972-2.047 5.808-4.269 8.074-2.098 2.14-4.507 3.924-5.974 5.009l-.311.23a.752.752 0 0 1-.897 0l-.312-.23c-1.466-1.085-3.875-2.869-5.973-5.009-2.22-2.263-4.264-5.095-4.27-8.063a6.216 6.216 0 0 1 1.823-4.596Zm8.033 1.042c-1.846-1.834-5.124-1.823-6.969.022a4.712 4.712 0 0 0-1.382 3.52c0 2.332 1.65 4.79 3.839 7.022 1.947 1.986 4.184 3.66 5.66 4.752a78.214 78.214 0 0 0 2.159-1.645l-2.14-1.974a.752.752 0 0 1 1.02-1.106l2.295 2.118c.616-.52 1.242-1.08 1.85-1.672l-2.16-1.992a.753.753 0 0 1 1.021-1.106l2.188 2.02a18.963 18.963 0 0 0 1.528-1.877l-.585-.586-1.651-1.652c-1.078-1.074-2.837-1.055-3.935.043-.379.38-.76.758-1.132 1.126-1.14 1.124-2.96 1.077-4.07-.043-.489-.495-.98-.988-1.475-1.482a.752.752 0 0 1-.04-1.019c.234-.276.483-.576.745-.893.928-1.12 2.023-2.442 3.234-3.576Zm9.725 6.77c.579-1.08.92-2.167.92-3.228.002-.899-.128-1.552-.35-2.08-.22-.526-.551-.974-1.017-1.44a4.71 4.71 0 0 0-3.356-1.384c-1.66.004-3.25.951-4.77 2.346-1.18 1.084-2.233 2.353-3.188 3.506l-.351.423c.331.332.663.664.993.998a1.375 1.375 0 0 0 1.943.03c.37-.365.748-.74 1.125-1.118 1.662-1.663 4.373-1.726 6.06-.045.56.558 1.12 1.12 1.658 1.658Z">
-                </path>
-              </svg>
-              <span
-                class="position-absolute left-0 top-0 height-full width-full home-campaign-glowing-icon-glow circle z-n1"
-                style="background-color: var(--mktg-accent-primary); filter: blur(18px);"></span>
-            </div>
-
-            <div class="home-campaign-git-line height-full rounded js-build-in-item build-in-scale-top"
-              style="background: linear-gradient(rgb(247, 120, 186) 40%, transparent); transition-delay: 500ms;"
-              data-build-delay="500"></div>
-          </div>
-
-          <div class="col-11 col-lg-8 ml-2 ml-md-0 mb-6 mb-md-10 pr-lg-3">
-            <h3 class="h5-mktg mb-4 text-medium js-build-in-item build-in-slideX-left" style="transition-delay: 200ms;">
-              Collaboration</h3>
-            <h2 class="h3-mktg mb-4 text-medium js-build-in-item build-in-slideX-left" style="transition-delay: 300ms;">
-              <span class="text-accent-primary d-block">Supercharge collaboration</span>
-              GitHub helps your teams work more efficiently together.
-            </h2>
-          </div>
+ 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <picture>
-          <source
-            srcset="https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=2498&amp;format=webpll 2498w,https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=1998&amp;format=webpll 1998w,https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=1498&amp;format=webpll 1498w,https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=1249&amp;format=webpll 1249w,https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=999&amp;format=webpll 999w,https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=499&amp;format=webpll 499w"
-            sizes="(max-width: 1200px) 90vw, 1248px" type="image/webp">
-          <source
-            srcset="https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png 2498w,https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=1249 1249w,https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=999 999w,https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=624 624w"
-            sizes="(max-width: 1200px) 90vw, 1248px" type="image/png">
-    
-
-
-          <!-- end of experience section -->
-        </picture>
-
-
-
-
-        <!--  -->
-
-      </div>
-    </div>
-
-
-
-    <!-- 11111111111111111111111111 -->
 
 
 
@@ -1729,7 +1504,7 @@ li.c-services__item {
         <div class="d-flex js-build-in-trigger" data-build-in-stagger="100">
           <div class="col-1 d-flex flex-column flex-items-center js-build-in-trigger">
             <div class="home-campaign-git-line rounded js-build-in-item build-in-scale-top"
-              style="height: 100%; background: linear-gradient(transparent, rgb(102, 57, 186) 10%, rgb(163, 113, 247), rgb(210, 168, 255)); transition-delay: 0ms;">
+              style="height: 100%; background: linear-gradient(transparent, #2091d0, #2091d0, #2091d0); transition-delay: 0ms;">
             </div>
 
             <div class="mx-auto my-3 home-campaign-glowing-icon">
@@ -1769,7 +1544,6 @@ li.c-services__item {
                   <!-- contact text -->
                   <div class="contact__text">
                     <div class="text-box-inline">
-                      <span class="subtitle" style="top: 5px; opacity: 1; visibility: inherit;">contact</span>
                       <h2
                         style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
                         Have You Any Project?
@@ -1785,7 +1559,7 @@ li.c-services__item {
 
                     <!-- contact info -->
                     <ul class="contact__info">
-                      <li class="contact__info__item"
+                      <!-- <li class="contact__info__item"
                         style="opacity: 1; visibility: inherit; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);">
                         <svg class="contact__info__item__icon" width="24" height="24">
                           <use href="#location"></use>
@@ -1794,14 +1568,14 @@ li.c-services__item {
                           <strong>Address : Sohag _ AL Maragha</strong>
 
                         </div>
-                      </li>
+                      </li> -->
                       <li class="contact__info__item"
                         style="opacity: 1; visibility: inherit; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);">
                         <svg class="contact__info__item__icon" width="24" height="24">
                           <use href="#phone"></use>
                         </svg>
                         <div class="contact__info__item__text">
-                          <strong>Phone : <a href="tel:+201288769267" class="ltr-dir">+201288769267</a></strong>
+                          <strong>Phone : <a href="tel:+972503889420" class="ltr-dir">+972503889420</a></strong>
 
                         </div>
                       </li>
@@ -1811,7 +1585,7 @@ li.c-services__item {
                           <use href="#envelope"></use>
                         </svg>
                         <div class="contact__info__item__text">
-                          <strong>Email : <a href="mailto:AmmarAhmed132004@outlook.com">@Ammar.com</a></strong>
+                          <strong>Email : <a href="mailto:contact@appnest.online">contact@appnest.online</a></strong>
                         </div>
                       </li>
                     </ul>
@@ -1831,7 +1605,7 @@ li.c-services__item {
                       <div class="group">
                         <!-- <label>Name</label> -->
                         <div class="control has-prefix-icon">
-                          <input type="text" name="name" placeholder="Ammar Ahmed" minlength="3" required="">
+                          <input type="text" name="name" placeholder="User Name" minlength="3" required="">
 
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-person-circle fa-solid fa-circle-user prefix-icon" viewBox="0 0 16 16">
@@ -1853,7 +1627,7 @@ li.c-services__item {
                         <!-- <label>Email</label> -->
                         <div class="control has-prefix-icon">
                           <input class="ltr-dir" type="email" inputmode="email" name="email"
-                            placeholder="ammarahmed132004@outlook.com" required="">
+                            placeholder="contact@appnest.online" required="">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-envelope-fill prefix-icon" viewBox="0 0 16 16">
                             <path
@@ -1905,7 +1679,7 @@ li.c-services__item {
                       <div class="group">
                         <div class="control">
                           <button class="submit-btn w-btn w-btn--s2" type="button"
-                            onclick="window._contactFormValidation(this)" style="color: black !important;">Send</button>
+                            onclick="window._contactFormValidation(this)" style="color: white !important;">Send</button>
                         </div>
                       </div>
                     </form>

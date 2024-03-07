@@ -123531,6 +123531,7 @@ html[dir="rtl"] .form-styled .group .control.has-prefix-icon .prefix-icon {
 
 .form-styled .group .control input:not([type="radio"]):not([type="checkbox"]):not([type="file"]) {
     line-height: 1;
+    padding-left: 40px;
 }
 
 .form-styled .group .control input[type="email"],
@@ -132576,11 +132577,13 @@ div#productivity {
                         }
 
                         input ,textarea {
-                          background-color: #0A0A0A !important;
-border: none !important;
+                         border: 1px solid #0A0A0A !important;
+
+
+
                         }
                         button.submit-btn.w-btn.w-btn--s2 {
-    background: white;
+    background: black;
 }
                         .ag-courses-item_link:hover,
                         .ag-courses-item_link:hover .ag-courses-item_date {
