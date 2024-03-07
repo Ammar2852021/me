@@ -7951,7 +7951,7 @@ html[data-color-mode=light] .feed-background {
 .usage-bar {
     width: 100%;
     margin: 4px 0 0;
-    background: #eee;
+    background: aliceblue;
     border-radius: 20px
 }
 
@@ -10637,7 +10637,7 @@ development-menu .SelectMenu-item[aria-disabled=true] {
 .file .image img,
 .file .image canvas {
     max-width: 600px;
-    background: url("/images/modules/commit/trans_bg.gif") right bottom #eee;
+    background: url("/images/modules/commit/trans_bg.gif") right bottom aliceblue;
     border: 1px solid #fff
 }
 
@@ -10647,7 +10647,7 @@ development-menu .SelectMenu-item[aria-disabled=true] {
     top: 0;
     right: 0;
     max-width: inherit;
-    background: url("/images/modules/commit/trans_bg.gif") right bottom #eee
+    background: url("/images/modules/commit/trans_bg.gif") right bottom aliceblue
 }
 
 .file .image .view>span {
@@ -15248,7 +15248,7 @@ dl.form-group>dd textarea.compact {
 .draft-tag {
     padding: 4px 8px;
     font-weight: var(--base-text-weight-semibold, 600);
-    color: #eee;
+    color: aliceblue;
     background-color: #404040
 }
 
@@ -17786,12 +17786,12 @@ span.CodeMirror-selectedtext {
 }
 
 .CodeMirror-dialog-top {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid aliceblue;
     top: 0
 }
 
 .CodeMirror-dialog-bottom {
-    border-top: 1px solid #eee;
+    border-top: 1px solid aliceblue;
     bottom: 0
 }
 
@@ -57737,7 +57737,7 @@ card-skew:hover [data-target="card-skew.shine"] {
 .usage-bar {
     width: 100%;
     margin: 4px 0 0;
-    background: #eee;
+    background: aliceblue;
     border-radius: 20px
 }
 
@@ -60427,7 +60427,7 @@ development-menu .SelectMenu-item[aria-disabled=true] {
 .file .image img,
 .file .image canvas {
     max-width: 600px;
-    background: url("/images/modules/commit/trans_bg.gif") right bottom #eee;
+    background: url("/images/modules/commit/trans_bg.gif") right bottom aliceblue;
     border: 1px solid #fff
 }
 
@@ -60437,7 +60437,7 @@ development-menu .SelectMenu-item[aria-disabled=true] {
     top: 0;
     right: 0;
     max-width: inherit;
-    background: url("/images/modules/commit/trans_bg.gif") right bottom #eee
+    background: url("/images/modules/commit/trans_bg.gif") right bottom aliceblue
 }
 
 .file .image .view>span {
@@ -65061,7 +65061,7 @@ dl.form-group>dd textarea.compact {
 .draft-tag {
     padding: 4px 8px;
     font-weight: var(--base-text-weight-semibold, 600);
-    color: #eee;
+    color: aliceblue;
     background-color: #404040
 }
 
@@ -67187,12 +67187,12 @@ span.CodeMirror-selectedtext {
 }
 
 .CodeMirror-dialog-top {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid aliceblue;
     top: 0
 }
 
 .CodeMirror-dialog-bottom {
-    border-top: 1px solid #eee;
+    border-top: 1px solid aliceblue;
     bottom: 0
 }
 
@@ -103972,7 +103972,7 @@ template {
 }
 
 .fa-border {
-    border-color: var(--fa-border-color, #eee);
+    border-color: var(--fa-border-color, aliceblue);
     border-radius: var(--fa-border-radius, .1em);
     border-style: var(--fa-border-style, solid);
     border-width: var(--fa-border-width, .08em);
@@ -126723,7 +126723,7 @@ div#productivity {
                       }
 
                       progress::-webkit-progress-bar {
-                        background-color: #eee;
+                        background-color: aliceblue;
                         border-radius: 10px;
                       }
 
@@ -127863,7 +127863,7 @@ div#productivity {
 
   #help-box-inner {
     background-color: #f9f9f9;
-    border-top: 1px solid #EEE;
+    border-top: 1px solid aliceblue;
     color: #444;
     padding: 20px;
     text-align: start;
@@ -128004,7 +128004,7 @@ div#productivity {
   }
 
   #sub-frame-error:hover {
-    background-color: #EEE;
+    background-color: aliceblue;
   }
 
   #sub-frame-error-details {
@@ -131880,7 +131880,7 @@ div#productivity {
                                 }
 
                                 input[type="checkbox"].chip:disabled {
-                                  --color: #eee !important;
+                                  --color: aliceblue !important;
                                   color: #6c6c6c;
                                   border-color: #4c4c4c;
                                 }
@@ -132093,7 +132093,7 @@ div#productivity {
                                   color: white;
                                   width: 5px;
                                   height: 30vh;
-                                  background: #eee;
+                                  background: aliceblue;
                                   margin: 0 20px;
                                 }
 
@@ -132102,7 +132102,7 @@ div#productivity {
                                   height: 15px;
                                   border-radius: 50%;
                                   background: white;
-                                  border: 2px solid #eee;
+                                  border: 2px solid aliceblue;
                                   display: flex;
                                   align-items: center;
                                   justify-content: center;
