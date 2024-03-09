@@ -131411,3 +131411,14 @@ div#productivity {
     justify-content: start;
     gap: 10px;
 }
+
+
+
+
+
+
+
+a,h1,h2,h3,h4,h5,h6,span,p{color: var(--text-color) !important;
+}
+
+p{font-size:larger !important }

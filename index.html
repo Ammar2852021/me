@@ -336,7 +336,6 @@ div#google_translate_element {
             .details-content {
               order: 1;
               width: 100%;
-              color:black;
             }
         
             .details-content details summary {
@@ -348,7 +347,6 @@ div#google_translate_element {
             }
             .details-item[open] > .details-tab {
               background: #fff;
-              color: #333;
             }
                 </style>
             
@@ -357,7 +355,7 @@ div#google_translate_element {
             
             
             <section class="container" style="
-            padding: 0 !important ;height: 60vh;" >
+           height: 60vh;" >
                 <div class="category_container">
                     <div class="content">
                         <img src="https://th.bing.com/th/id/OIP.h040XjHjbQim9dOAA1yDHQHaER?w=1024&h=590&rs=1&pid=ImgDetMain" class="professio_image" alt="Profession">
@@ -1559,11 +1557,15 @@ section.container {
     margin-bottom: 100vh !important;
 }
 
-.pc_lap{
-  display: none;
+#pc_lap{
+  display: none !important;
 }
-.pc_phone{display: block;}
-
+#pc_phone{display: block !important;}
+.link_nav {
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+}
                         }
 
 
@@ -1754,7 +1756,8 @@ background-color: var(--background-color) !important;
 color: var(--text-color) !important;
 }
 
-
+a{color: var(--text-color) !important;
+}
 
 .toggle-container {
 padding: 14px;
@@ -1864,7 +1867,7 @@ animation-timing-function: ease-in-out;
 --background-color-2: #F4F7FD;
 --text-color: #000000;
 }
-
+p{font-size:larger !important }
 
 </style>
 
@@ -1884,6 +1887,12 @@ body.classList.toggle('dark');
 });
 
 </script>
+<style>
+  select.goog-te-combo {
+    border: none !important;
+    background: transparent !important;color: var(--text-color) !important;
+}
+</style>
 </body>
 
 </html> 
