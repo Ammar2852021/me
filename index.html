@@ -139,15 +139,37 @@ div#\:0\.targetLanguage {
     color: transparent;
 }
 </style>
-<body>
+<body class="light">
+
+
+
+
+  
+
 
 <div id="content_code" >
   
 <div class="nav_bar">
   <div class="logo"><img style="    width: 130px;" src="/img/1200x630-02.png" alt=""></div>
 <div class="link_nav">
-  <a href="#">Home</a><a href="#">Abut</a><a href="#">services</a><a href="#">Contact</a><div id="google_translate_element"></div>
 
+  <a href="#Home_One">Home</a><a href="#About_Us">About</a><a href="#my_services">services</a><a href="#contact_us">Contact</a><div id="google_translate_element"></div>
+  <main>
+    <div class="toggle-container">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brightness-high" viewBox="0 0 16 16">
+        <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/>
+      </svg>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon" viewBox="0 0 16 16">
+        <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286"/>
+      </svg>
+    </div>
+  </main>
+  <div class="darkCircle"></div>
+  <div class="lightCircle grow"></div>
 </div>
   <style>
     .nav_bar {
@@ -155,19 +177,25 @@ div#\:0\.targetLanguage {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    background: wheat;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 99999999;
-    background: white;
+    background-color: var(--background-color);
+
 }
 .link_nav {
   display: flex;
-  gap: 10px;
+  gap: 7vw;
+    align-items: center;
+}
+div#google_translate_element {
+    height: 6vh !important;
 }
 .link_nav a {
   font-weight: bold;
+  color: var(--text-color) !important;
+
 }
   </style>
 </div>
@@ -195,567 +223,10 @@ div#\:0\.targetLanguage {
         <main class="font-mktg">
 
 
-<!-- 
-          <div class="overflow-hidden">
 
-            <div class="px-3 home-campaign-hero">
-
-              <div class="position-relative  js-build-in-trigger build-in-animate" data-hpc="">
-                <div class="d-block pt-sm-9">
-            
-
-                  <div >
-
-
-
-
-
-<div class="xcv" style="height: 100vh;" >
-
-  <div class="home_page">
-  <div class="coloms_one">
-  
-  <div class="bot_black"></div>    
-  <div class="bot_black"></div>    
-  
-  </div>
-  
-  
-  <div class="coloms_tow">
-<div class="coloms_tow_box">
-  <div class="coloms_tow_box_text">
-    <p>To provide technology services</p>
-    <button class="button__">
-      <span>Continue</span>
-      <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
-          <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="black"></path>
-      </svg>
-  </button>
-  <style>
-    .button__ {
-  cursor: pointer;
-  font-weight: 700;
-  font-family: Helvetica,"sans-serif";
-  transition: all .2s;
-  padding: 10px 20px;
-  border-radius: 100px;
-  background: #2091d0;
-  border: 1px solid transparent;
-  display: flex;
-  color: white;
-  align-items: center;
-  font-size: 15px;
-}
-
-.button__:hover {
-  background: #c4e201;
-}
-
-.button__ > svg {
-  width: 34px;
-  margin-left: 10px;
-  transition: transform .3s ease-in-out;
-}
-
-.button__:hover svg {
-  transform: translateX(5px);
-}
-
-.button__:active {
-  transform: scale(0.95);
-}
-.coloms_tow_box_text {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-flow: column;
-}
-
-  </style>
-  </div>
-  <div class="coloms_tow_box_img"></div>
-
-
-</div>
-
-
-<div class="coloms_tow_list"><ul class="main__list">
-
-
-
-  <li class="main__list-item">
-    
-    <div class="main__list-content-wrap">
-    </div>
-  </li>
-
-  <li class="main__list-item">
-    <div class="main__list-content-wrap">
-    </div>
-  </li>
-
-
-
-
-</ul></div>
-
-
-
-
-<div class="coloms_tow_list"><ul class="main__list" style="float: right;">
-
-
-
-  <li class="main__list-item">
-    
-    <div class="main__list-content-wrap">
-    </div>
-  </li>
-
-  <li class="main__list-item">
-    <div class="main__list-content-wrap">
-    </div>
-  </li>
-
-
-
-
-</ul></div>
-<style>
-
-
-
-.main__heading {
-  font-size: 3rem;
-  font-weight: 300;
-  display: flex;
-  align-items: center;
-}
-
-.main__heading>span {
-  width: 4rem;
-  height: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 12px;
-  margin-right: 1.6rem;
-  margin-bottom: -2px;
-}
-
-.main__heading svg {
-  height: .7em;
-}
-
-.main__desc {
-  margin: 1.5rem 0 1rem;
-  font-size: 1.4rem;
-  opacity: .6
-}
-
-.main__sub {
-  font-size: 1.2rem;
-}
-
-.main__sub span:first-of-type {
-  opacity: .4;
-}
-
-.main__list-heading-wrap {
-  display: flex;
-  align-items: center;
-  font-size: 1rem;
-  margin: 8rem 0 5rem;
-}
-
-.main__list-heading {
-  flex-grow: 2;
-}
-
-.main__list {
-  list-style: none;
-  position: relative;
-}
-
-
-.main__list-item {
-  border-left: 2px solid hsla(0, 0%, 50%, .2);
-  position: relative;
-  display: flex;
-  color: #9D9DAC;
-  margin: 10px;
-}
-
-.main__list-item:first-of-type .main__list-content {
-  color: hsl(240, 8%, 90%);
-}
-
-.main__list-item::before {
-  content: "";
-  position: absolute;
-  left: -3px;
-  top: 8px;
-  width: 10px;
-  height: 10px;
-  border-radius: 4px;
-  background: black;
-  border-radius: 50%;
-  transform: translateX(-3px);
-}
-
-.main__list-item:first-of-type::before {
-  top: 0;
-}
-
-.main__list-item:first-of-type .main__list-content {
-  line-height: .3;
-}
-
-.main__list-item:last-of-type {
-  padding-bottom: 2.6rem;
-}
-
-.main__list-item-image {
-  width: 4rem;
-  height: 4rem;
-  border-radius: 1px;
-  margin-right: 1rem;
-  box-shadow: 0 2px 10px hsla(270, 30%, 2%, .6);
-}
-
-.main__list-item-image img {
-  border-radius: inherit;
-}
-
-.main__list-content {
-  font-size: 1.4rem;
-  cursor: pointer;
-}
-
-.main__list-content:hover {
-  color: hsl(240, 8%, 90%);
-}
-
-.main__list-sub {
-  margin-top: .4rem;
-  font-size: 1.1rem;
-  opacity: .6;
-}
-
-
-
-
-</style>
-<div class="coloms_tow_list" style="display: flex;
-/* align-items: center; */
-/* justify-content: center; */
-flex-direction: column;
-gap: 5px;
-padding: 0 10px;">
-
-  <div class="flex" style="gap: 5px;">
-    <div class="xcvbn">Web Site</div>  
-  <div class="xcvbn">E-commerce</div> 
-
-  </div>   <div class="flex" style="gap: 5px;">
-
-    <div class="xcvbn">app mobile</div>  
-    <div class="xcvbn">Graphic Design</div>  
-  </div> 
-<style>
-  .xcvbn{
-    padding: 5px 15px;
-    background: none;
-    border: 1px solid ; 
-    border-radius: 30px;
-  }
-</style>
-</div>
-
-<div class="coloms_tow_list"><ul class="main__list">
-
-
-
-  <li class="main__list-item">
-    
-    <div class="main__list-content-wrap">
-    </div>
-  </li>
-
-  <li class="main__list-item">
-    <div class="main__list-content-wrap">
-    </div>
-  </li>
-
-
-
-
-</ul></div>
-
-
-
-
-
-<div class="coloms_tow_box">
-  <div class="coloms_tow_box_img"></div>
-  <div class="coloms_tow_box_text">
-    <p>To provide technology services</p>
-    <button class="button__">
-      <span>Continue</span>
-      <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
-          <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="black"></path>
-      </svg>
-  </button>
-  <style>
-    .button__ {
-  cursor: pointer;
-  font-weight: 700;
-  font-family: Helvetica,"sans-serif";
-  transition: all .2s;
-  padding: 10px 20px;
-  border-radius: 100px;
-  background: #2091d0;
-  border: 1px solid transparent;
-  display: flex;
-  color: white;
-  align-items: center;
-  font-size: 15px;
-}
-
-.button__:hover {
-  background: #c4e201;
-}
-
-.button__ > svg {
-  width: 34px;
-  margin-left: 10px;
-  transition: transform .3s ease-in-out;
-}
-
-.button__:hover svg {
-  transform: translateX(5px);
-}
-
-.button__:active {
-  transform: scale(0.95);
-}
-.coloms_tow_box_text {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-flow: column;
-}
-
-  </style>
-  </div>
-
-
-</div>
-
-  </div>
-  
-  <div class="coloms_three">
-      <div class="rowls_three"></div>
-  </div>
-  
-  </div>
-  
-  
-  
-  
-  <style>
-    .pig_code {
-    width: 41%;
-    background: white;
-    z-index: 999;
-    position: absolute;
-    padding: 50px;
-    border-radius: 30px;
-    margin-top: 10vh;
-}
-      *{margin: 0; padding: 0;}
-      .home_page{width: 100%; height: 90vh; display: grid;      
-
-      grid-template-columns: 1fr 5fr 11fr ;}
-      .coloms_one {
-      background: aliceblue;
-      border-radius: 100px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-direction: column-reverse;
-      padding: 20px;
-  }
-  
-      .bot_black{background-color: white; width:85px; height: 85px; border-radius: 50%;margin: 5px;}
-  
-  
-      p.Text__Wrapper-sc-zbm6r7-0.iLORzH {
-    color: black !important;
-}
-  
-  
-  .coloms_tow_box{ height: 30vh; background: aliceblue; border-radius: 10px; margin: 0 10px;
-  
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5px;
-  }
-  
-  
-  
-  
-  .coloms_tow_box_img {background-image: url(/img/3ce126186323803\(1\).657339278fe59.png);
-    
-    background-size: cover;
-    background-position: center center;
-     margin: 10px; border-radius: 10px;}
-  .coloms_tow_box_text{ margin: 10px; border-radius: 10px;}
-  
-  
-  .coloms_three{
-      border-radius: 20px;
-      position: relative;
-      background-image: url(/img/96027950411735.58d02174b3592.jpg);
-      background-size: cover;
-  
-  }
-  
-  
-  
-  .rowls_three {
-      position: absolute;
-      top: -16px;
-      right: -18px;
-      background-color: aliceblue;
-      width: 60px;
-      height: 60px;
-      border: 5px solid white;
-      border-radius: 50%;
-  }
-  </style>
-  
-
-
-
-</div>
-
-            
-
-
-                    <div class="my-3 my-md-4 build-in-animate col-12">
-                
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-
-
-
-
-            <div class="d-flex flex-column flex-md-row gutter js-build-in-trigger build-in-animate"
-              style="display: none !important;" <div class="position-relative z-1 col-md-6 d-flex">
-              <card-skew class="overflow-hidden rounded-3 mb-3 mb-md-5" data-catalyst="" data-perspective="700"
-                style="transform: perspective(700px) rotateX(0.03deg) rotateY(-0.03deg);">
-                <div
-                  class="feature-card-mktg d-md-flex rounded-3 color-bg-subtle border position-relative flex-justify-between z-1 height-full flex-column"
-                  data-target="card-skew.bounding">
-                  <div class="d-md-flex flex-column ">
-                    <div>
-                      <div id="app-inner">
-
-
-
-                        <div id="portfolio" class="portfolio-section section hide-in-preloading" tabindex="-1">
-                          <div class="container">
-                            <div class="section-content" id="section-content">
-
-
-                              <div class="text-box-inline">
-
-
-
-                                <title
-                                  style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
-                                  3d example using three.js and multiple windows</title>
-                                <style type="text/css"
-                                  style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
-                                  * {
-                                    margin: 0;
-                                    padding: 0;
-                                  }
-                                </style>
-
-
-
-
-                                <script type="module" src="main.js"
-                                  style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1; visibility: inherit;"></script>
-
-
-                              </div>
-
-
-
-
-
-
-                            </div>
-
-
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-
-
-                  </div>
-
-
-                  <div data-target="card-skew.shine" class="position-absolute bottom-0 right-0 events-none z-n1"
-                    style="transform: translate(24.4px, 78.03px);"></div>
-                </div>
-              </card-skew>
-
-            </div>
-
-
-
-
-          </div>
- -->
-
- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
     <main class="flex__col">
-      
-        <!-- <section class="intro flex">
-          <h1>GSAP Scroll animation<br/>Text border on image</h1>
-          <img src="https://images.unsplash.com/photo-1680268719962-acaffc32c3cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80">
-          <p>
-            Challenge 1 heure : Inspiration de l'animation du site <a href="https://www.torebentsen.com/">Tore S.Bentsen</a> (SOTD, 9 Avril, 2023)
-            <br/><br/>
-            1 hour challenge : Insprired by <a href="https://www.torebentsen.com/">Tore S.Bentsen</a> website animation (SOTD, Apr 9, 2023)
-            <br/><br/>
-            Nulla hendrerit metus lacinia magna rhoncus suscipit. Sed faucibus posuere tempor. Ut suscipit et urna a gravida.
-          </p>
-        </section> -->
-        <section class="list flex__col">
+ 
+        <section class="list flex__col" id="Home_One">
           <div class="list__item flex">
             <img src="https://images.unsplash.com/photo-1680268719962-acaffc32c3cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80">
             <div class="list__item__title">appnest</div>
@@ -770,7 +241,7 @@ padding: 0 10px;">
 
 
         
-        <div class="d-flex js-build-in-trigger position-relative" data-build-in-stagger="100" style="margin-top: 25vh;">
+        <div class="d-flex js-build-in-trigger position-relative" data-build-in-stagger="100" style="margin-top: 25vh;" id="About_Us">
        
 
           <div class="col-1 d-flex flex-column flex-items-center position-relative">
@@ -794,7 +265,7 @@ padding: 0 10px;">
                 
                   <h2 class="h3-mktg mb-4 text-medium js-build-in-item build-in-slideX-left"
                   style="transition-delay: 300ms;">
-                  <span class="text-accent-primary d-block" style="color: #2091d0;" >Abut Us</span> 
+                  <span class="text-accent-primary d-block" style="color: #2091d0;" >About Us</span> 
                   Some information about                      </h2>
               </div>
             </div>
@@ -811,9 +282,6 @@ padding: 0 10px;">
           <div class="we">
             <div class="text">
                 
-                <link rel="preconnect" href="https://fonts.googleapis.com">
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-                <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
                 <div class="details-tabs">
                     <details class="details-item" open=""> <!-- default first "tab" to open -->
                         <div class="details-content">
@@ -884,9 +352,6 @@ padding: 0 10px;">
             }
                 </style>
             
-                <!-- quick fix to load assets from github -->
-            <base href="https://rawcdn.githack.com/MuhammadHasann/component-frontend/7e3a0bced6f1b050e8d0b621f2a3a6e7b1cb06d3/section/category%20card-2/">
-            <!-- lazy dog credit note -->
             
             
             
@@ -948,8 +413,6 @@ padding: 0 10px;">
             
             body {
               font-family: "Inter", sans-serif;
-              background: white !important;
-              color: black !important;
             }
             
             :root {
@@ -1122,7 +585,7 @@ padding: 0 10px;">
         </div>
 
     
-        <div class="d-flex js-build-in-trigger position-relative" data-build-in-stagger="100" style="margin-top: 25vh;">
+        <div class="d-flex js-build-in-trigger position-relative" data-build-in-stagger="100" style="margin-top: 25vh;" id="my_services">
        
 
           <div class="col-1 d-flex flex-column flex-items-center position-relative">
@@ -1155,114 +618,227 @@ padding: 0 10px;">
 
 
 
-       
-            <div class="grid_photo" data-aos="zoom-out" >
-                <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-1.webp);"></div>
-                <div class="text_grid">
-                    <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
-                        <div class="content-wrapper">
-                            <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
-                                <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><h3 aria-hidden="true"
-                                        class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">😊</h3></div>
-                                <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">
-                                  Applications development</h3>
-                                <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
-                                  developing web and mobile applications using the latest technologies to deliver innovative digital solutions. Our goal is to enhance our clients' online presence with effective applications that meet their needs and achieve their objectives</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="grid_photo" data-aos="zoom-out">
-                <div class="text_grid">
-                    <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
-                        <div class="content-wrapper">
-                            <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
-                                <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><h3 aria-hidden="true"
-                                        class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">✨</h3></div>
-                                <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">E-commerce
-                                    </h3>
-                                <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
-                                  comprehensive e-commerce solutions that empower businesses to sell online with ease. Our services include custom website design, secure payment integration, and effective inventory management, all tailored to enhance your online store's performance and customer experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-2.webp);"></div>
-        
-            </div>
-            <div class="grid_photo" data-aos="zoom-out">
-                <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-3.webp);"></div>
-                <div class="text_grid">
-                    <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
-                        <div class="content-wrapper">
-                            <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
-                                <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><h3 aria-hidden="true"
-                                        class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">🖤</h3></div>
-                                <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">
-                                  Application management</h3>
-                                <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
-                                  comprehensive management services for apps and websites, ensuring their optimal performance and security. Our team provides regular updates, maintenance, and technical support to keep your digital assets running smoothly and efficiently.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="grid_photo" data-aos="zoom-out">
-                <div class="text_grid">
-                    <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
-                        <div class="content-wrapper">
-                            <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
-                                <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><h3 aria-hidden="true"
-                                        class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">👌</h3></div>
-                                <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">Web development</h3>
-                                <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
-                                  Designing and developing web pages that are visually appealing, user-friendly, and optimized for performance. Our team creates custom solutions tailored to your specific needs, ensuring a seamless and engaging online experience for your audience</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-4.webp);"></div>
-        
-            </div>
-            <div class="grid_photo" data-aos="zoom-out">
-                <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-5.webp);"></div>
-                <div class="text_grid">
-                    <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
-                        <div class="content-wrapper">
-                            <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
-                                <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><h3 aria-hidden="true"
-                                        class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">😍</h3></div>
-                                <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">Graphic Design
-                                    </h3>
-                                <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
-                                  creating visually stunning graphic designs that effectively communicate your brand's message. Our services include logo design, branding, print materials, and digital graphics, all tailored to elevate your visual identity and engage your audience.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="grid_photo" data-aos="zoom-out">
-                <div class="text_grid">
-                    <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
-                        <div class="content-wrapper">
-                            <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
-                                <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><h3 aria-hidden="true"
-                                        class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">😈</h3></div>
-                                <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">Security and protection
-                                    </h3>
-                                <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH"> Robost security and protection services safeguard your digital assets. Our solutions include threat detection, encryption, firewalls, and regular security audits to ensure the integrity and confidentiality of your data and systems.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-5.webp);"></div>
+  <main id="pc_lap">
+         
+    <div class="grid_photo" data-aos="zoom-out" >
+      <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-1.webp);"></div>
+      <div class="text_grid">
+          <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
+              <div class="content-wrapper">
+                  <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
+                      <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><h3 aria-hidden="true"
+                              class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">😊</h3></div>
+                      <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">
+                        Applications development</h3>
+                      <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
+                        developing web and mobile applications using the latest technologies to deliver innovative digital solutions. Our goal is to enhance our clients' online presence with effective applications that meet their needs and achieve their objectives</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="grid_photo" data-aos="zoom-out">
+      <div class="text_grid">
+          <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
+              <div class="content-wrapper">
+                  <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
+                      <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><h3 aria-hidden="true"
+                              class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">✨</h3></div>
+                      <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">E-commerce
+                          </h3>
+                      <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
+                        comprehensive e-commerce solutions that empower businesses to sell online with ease. Our services include custom website design, secure payment integration, and effective inventory management, all tailored to enhance your online store's performance and customer experience.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-2.webp);"></div>
 
-            </div>
-        
-        
+  </div>
+  <div class="grid_photo" data-aos="zoom-out">
+      <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-3.webp);"></div>
+      <div class="text_grid">
+          <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
+              <div class="content-wrapper">
+                  <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
+                      <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><h3 aria-hidden="true"
+                              class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">🖤</h3></div>
+                      <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">
+                        Application management</h3>
+                      <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
+                        comprehensive management services for apps and websites, ensuring their optimal performance and security. Our team provides regular updates, maintenance, and technical support to keep your digital assets running smoothly and efficiently.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="grid_photo" data-aos="zoom-out">
+      <div class="text_grid">
+          <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
+              <div class="content-wrapper">
+                  <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
+                      <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><h3 aria-hidden="true"
+                              class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">👌</h3></div>
+                      <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">Web development</h3>
+                      <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
+                        Designing and developing web pages that are visually appealing, user-friendly, and optimized for performance. Our team creates custom solutions tailored to your specific needs, ensuring a seamless and engaging online experience for your audience</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-4.webp);"></div>
+
+  </div>
+  <div class="grid_photo" data-aos="zoom-out">
+      <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-5.webp);"></div>
+      <div class="text_grid">
+          <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
+              <div class="content-wrapper">
+                  <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
+                      <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><h3 aria-hidden="true"
+                              class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">😍</h3></div>
+                      <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">Graphic Design
+                          </h3>
+                      <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
+                        creating visually stunning graphic designs that effectively communicate your brand's message. Our services include logo design, branding, print materials, and digital graphics, all tailored to elevate your visual identity and engage your audience.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="grid_photo" data-aos="zoom-out">
+      <div class="text_grid">
+          <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
+              <div class="content-wrapper">
+                  <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
+                      <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><h3 aria-hidden="true"
+                              class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">😈</h3></div>
+                      <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">Security and protection
+                          </h3>
+                      <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH"> Robost security and protection services safeguard your digital assets. Our solutions include threat detection, encryption, firewalls, and regular security audits to ensure the integrity and confidentiality of your data and systems.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-5.webp);"></div>
+
+  </div>
 
 
+  </main>
+
+
+  <main id="pc_phone" style="display: none;">
+         
+    <div class="grid_photo" data-aos="zoom-out" >
+      <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-1.webp);"></div>
+      <div class="text_grid">
+          <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
+              <div class="content-wrapper">
+                  <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
+                      <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><h3 aria-hidden="true"
+                              class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">😊</h3></div>
+                      <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">
+                        Applications development</h3>
+                      <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
+                        developing web and mobile applications using the latest technologies to deliver innovative digital solutions. Our goal is to enhance our clients' online presence with effective applications that meet their needs and achieve their objectives</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="grid_photo" data-aos="zoom-out">
+    <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-2.webp);"></div>
+
+      <div class="text_grid">
+          <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
+              <div class="content-wrapper">
+                  <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
+                      <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><h3 aria-hidden="true"
+                              class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">✨</h3></div>
+                      <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">E-commerce
+                          </h3>
+                      <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
+                        comprehensive e-commerce solutions that empower businesses to sell online with ease. Our services include custom website design, secure payment integration, and effective inventory management, all tailored to enhance your online store's performance and customer experience.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </div>
+  <div class="grid_photo" data-aos="zoom-out">
+      <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-3.webp);"></div>
+      <div class="text_grid">
+          <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
+              <div class="content-wrapper">
+                  <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
+                      <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><h3 aria-hidden="true"
+                              class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">🖤</h3></div>
+                      <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">
+                        Application management</h3>
+                      <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
+                        comprehensive management services for apps and websites, ensuring their optimal performance and security. Our team provides regular updates, maintenance, and technical support to keep your digital assets running smoothly and efficiently.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="grid_photo" data-aos="zoom-out">
+    <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-4.webp);"></div>
+
+      <div class="text_grid">
+          <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
+              <div class="content-wrapper">
+                  <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
+                      <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><h3 aria-hidden="true"
+                              class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">👌</h3></div>
+                      <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">Web development</h3>
+                      <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
+                        Designing and developing web pages that are visually appealing, user-friendly, and optimized for performance. Our team creates custom solutions tailored to your specific needs, ensuring a seamless and engaging online experience for your audience</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </div>
+  <div class="grid_photo" data-aos="zoom-out">
+      <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-5.webp);"></div>
+      <div class="text_grid">
+          <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
+              <div class="content-wrapper">
+                  <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
+                      <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><h3 aria-hidden="true"
+                              class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">😍</h3></div>
+                      <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">Graphic Design
+                          </h3>
+                      <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH">Add projects to your learning journey and put your
+                        creating visually stunning graphic designs that effectively communicate your brand's message. Our services include logo design, branding, print materials, and digital graphics, all tailored to elevate your visual identity and engage your audience.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="grid_photo" data-aos="zoom-out">
+    <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-5.webp);"></div>
+
+      <div class="text_grid">
+          <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
+              <div class="content-wrapper">
+                  <div class="Spacer__Wrapper-sc-1qmp1cv-0 Stack__Wrapper-sc-11gzqgt-0 dRXKLO gpVveu">
+                      <div aria-hidden="true" class="Bubble__Wrapper-sc-1myaq26-0 jrjMtG"><h3 aria-hidden="true"
+                              class="Icon__Wrapper-sc-14z6oaj-0 ktEpnp">😈</h3></div>
+                      <h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 ipKlvs kJbhw">Security and protection
+                          </h3>
+                      <p class="Text__Wrapper-sc-zbm6r7-0 iLORzH"> Robost security and protection services safeguard your digital assets. Our solutions include threat detection, encryption, firewalls, and regular security audits to ensure the integrity and confidentiality of your data and systems.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </div>
+
+
+  </main>
 
 
 
@@ -1372,9 +948,7 @@ main {
   font-size: 1.6vw;
 }
 
-.intro p a {
-  color: #000;
-}
+
 
 .list__item {
   position: relative;
@@ -1393,7 +967,7 @@ main {
   font-size: 21vw;
   font-weight: 700;
   line-height: 80%;
-  color: var(--dark);
+  color: var(--text-color);
   text-align: center;
   transform: translate(-50%, -50%);
 }
@@ -1426,7 +1000,7 @@ ul.list__item__infos {
 }
 
 .list__item__infos li span {
-  color: #818181;
+  color: var(--text-color);
 }
 
 .list__item__type, .list__item__project {
@@ -1436,7 +1010,8 @@ ul.list__item__infos {
   writing-mode: vertical-lr;
   text-orientation: upright;
   transform: translateY(-50%);
-  color: #818181;
+  color: var(--text-color);
+
 }
 
 .list__item__type {
@@ -1641,7 +1216,7 @@ items.forEach(item => {
 
 
 
-    <div class="home-campaign-footer position-relative js-section overflow-hidden" data-light-theme="light">
+    <div class="home-campaign-footer position-relative js-section overflow-hidden" data-light-theme="light" id="contact_us">
 
 
       <div class="container-xl position-relative z-2 px-3">
@@ -1980,6 +1555,15 @@ items.forEach(item => {
 .content{
   margin-top: 20px;
 }
+section.container {
+    margin-bottom: 100vh !important;
+}
+
+.pc_lap{
+  display: none;
+}
+.pc_phone{display: block;}
+
                         }
 
 
@@ -2021,6 +1605,285 @@ div#productivity {
     margin-top: 25vh;
 }
 </style>
+
+</body>
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+
+.toggle-container {
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease-in-out 0.1s;
+}
+
+
+
+/* TOGGLE SWITCH STYLES */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 54px;
+  height: 32px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 5px;
+  bottom: 5px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(22px);
+  -ms-transform: translateX(22px);
+  transform: translateX(22px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* CIRCLE STYLES AND ANIMATION */
+
+.darkCircle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2B2C37;
+  clip-path: circle(0% at 50% 0%);
+  z-index: -1;
+}
+
+.lightCircle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+  clip-path: circle(0% at 50% 0%);
+  z-index: -1;
+}
+
+.darkCircle.grow {
+  animation-name: circle-grow;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-in-out;
+}
+
+.lightCircle.grow {
+  animation-name: circle-grow;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-in-out;
+}
+
+.dark {
+  --background-color: #2B2C37;
+  --background-color-2: #20212C;
+  --text-color: #fff;
+  transition: background-color 0.3s ease-in-out 0.4s, color 0.7s ease-in-out;
+}
+
+.light {
+  --background-color: #FFFFFF;
+  --background-color-2: #F4F7FD;
+  --text-color: #000000;
+  transition: background-color 0.3s ease-in-out 0.4s, color 0.7s ease-in-out;
+}
+
+@keyframes circle-grow {
+  0% {
+    clip-path: circle(0% at 50% 0%);
+  }
+  
+  100% {
+    clip-path: circle(150% at 50% 0%);
+  }
+}
+
+:root {
+/* THEME VARIABLES */
+--background-color: #F4F7FD;
+--background-color-2: #F4F7FD;
+--text-color: #000000;
+
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+background-color: var(--background-color) !important;
+color: var(--text-color) !important;
+}
+
+
+
+.toggle-container {
+padding: 14px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+border-radius: 6px;
+}
+
+.fa-sun,.fa-moon {
+font-size: 1.5rem;
+color: #828FA3;
+}
+
+.text {
+color: #828FA3;
+}
+
+/* TOGGLE SWITCH STYLES */
+.switch {
+position: relative;
+display: inline-block;
+width: 54px;
+height: 32px;
+}
+
+.switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #635FC7;
+}
+
+.slider:before {
+position: absolute;
+content: "";
+height: 22px;
+width: 22px;
+left: 5px;
+bottom: 5px;
+background-color: white;
+
+}
+
+
+
+.slider.round {
+border-radius: 34px;
+}
+
+.slider.round:before {
+border-radius: 50%;
+}
+
+/* CIRCLE STYLES AND ANIMATION */
+
+.darkCircle {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #2B2C37;
+clip-path: circle(0% at 50% 0%);
+z-index: -1;
+}
+
+.lightCircle {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #FFFFFF;
+clip-path: circle(0% at 50% 0%);
+z-index: -1;
+}
+
+.darkCircle.grow {
+animation-name: circle-grow;
+animation-timing-function: ease-in-out;
+}
+
+.lightCircle.grow {
+animation-name: circle-grow;
+animation-timing-function: ease-in-out;
+}
+
+.dark {
+--background-color: rgb(27, 27, 27);
+--background-color-2: rgb(27, 27, 27);
+--text-color: #fff;
+}
+
+.light {
+--background-color: #ffffff;
+--background-color-2: #F4F7FD;
+--text-color: #000000;
+}
+
+
+</style>
+
+
+<script>
+const themeSwitcher = document.querySelector('input[type=checkbox]');
+const darkCircle = document.querySelector('.darkCircle');
+const lightCircle = document.querySelector('.lightCircle');
+const body = document.querySelector('body');
+
+themeSwitcher.addEventListener('change', () => {
+darkCircle.classList.toggle('grow');
+lightCircle.classList.toggle('grow');
+
+body.classList.toggle('light');
+body.classList.toggle('dark');
+});
+
+</script>
 </body>
 
 </html> 
