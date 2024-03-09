@@ -102115,16 +102115,6 @@ html[dir="rtl"] .contact__social {
   }
 } */
 
-html[dir="ltr"] .contact__form .phone-number .prefix-icon {
-    -webkit-transform: !important;
-    transform: !important;
-}
-
-html[dir="rtl"] .contact__form .phone-number .prefix-icon {
-    -webkit-transform: rotateY(180deg) translateY(-50%) !important;
-    transform: rotateY(180deg) translateY(-50%) !important;
-}
-
 .contact__form .submit-btn {
     width: 100%;
 }
@@ -131173,12 +131163,7 @@ div#productivity {
                           position: relative;
                         }
 
-                        input ,textarea {
-                         border: 1px solid #0A0A0A !important;
-
-
-
-                        }
+                    
                         button.submit-btn.w-btn.w-btn--s2 {
     background: black;
 }
@@ -131391,8 +131376,6 @@ div#productivity {
                         margin-top: 10vh;
                     }
                         }
-
-
 
 
 
