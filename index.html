@@ -146,7 +146,7 @@ div#\:0\.targetLanguage {
   <div class="logo"><img style="    width: 130px;" src="/img/1200x630-02.png" alt=""></div>
 <div class="link_nav">
 
-  <a href="#Home_One">Home</a><a href="#About_Us">About</a><a href="#my_services">services</a><a href="#contact_us">Contact</a><div id="google_translate_element"></div>
+  <a href="#Home_One">Home</a><a href="#About_Us">About us</a><a href="#my_services">our services</a><a href="#contact_us">Contact us</a><div id="google_translate_element"></div>
   <main>
     <div class="toggle-container">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brightness-high" viewBox="0 0 16 16">
@@ -178,9 +178,11 @@ div#\:0\.targetLanguage {
 
 }
 .link_nav {
-  display: flex;
-  gap: 7vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    gap: 0vw;
     align-items: center;
+    text-align: center;
 }
 div#google_translate_element {
     height: 6vh !important;
@@ -209,9 +211,10 @@ div#google_translate_element {
  
         <section class="list flex__col" id="Home_One">
           <div class="list__item flex">
-            <img src="https://images.unsplash.com/photo-1680268719962-acaffc32c3cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80">
-            <div class="list__item__title">appnest</div>
-            <div class="list__item__titleOutline">appnest</div>
+            <img src="/img/home-page.png">
+            <div class="list__item__title" style="text-transform: capitalize;">AppNest</div>
+            <div class="list__item__titleOutline" style="text-transform: capitalize;">AppNest</div>
+            <p class="letter" >Turn your dreams into reality</p>
            
             <div class="list__item__type">WEBSITE</div>
             <div class="list__item__project">PORTFOLIO</div>
@@ -243,7 +246,7 @@ div#google_translate_element {
                   <h2 class="h3-mktg mb-4 text-medium js-build-in-item build-in-slideX-left"
                   style="transition-delay: 300ms;">
                   <span class="text-accent-primary d-block" style="color: #2091d0;" >About Us</span> 
-                  Some information about                      </h2>
+                  Some information about us                     </h2>
               </div>
             </div>
           </div>
@@ -269,6 +272,12 @@ div#google_translate_element {
             </div>
             
                 <style>
+
+.letter{
+  letter-spacing: 25px;
+    text-transform: capitalize;
+}    
+
             .text {
                 margin: 10px;
                 font-size: medium;
@@ -332,7 +341,7 @@ div#google_translate_element {
                     <div class="content">
                         <img src="https://th.bing.com/th/id/OIP.h040XjHjbQim9dOAA1yDHQHaER?w=1024&h=590&rs=1&pid=ImgDetMain" class="professio_image" alt="Profession">
                         <div class="profile_detail">
-                            <span>appnest</span>
+                            <!-- <span>appnest</span> -->
                             <p>UI/UX Designer + Graphic Designer</p>
                         </div>
             
@@ -349,7 +358,7 @@ div#google_translate_element {
                     <div class="content">
                         <img src="https://cdn.dribbble.com/users/1796151/screenshots/9854374/media/59fb63d8c0f646f8491d408493cbbf28.png" class="profession_image" alt="Profession">
                         <div class="profile_detail">
-                            <span>appnest</span>
+                            <!-- <span>appnest</span> -->
                             <p>website + Model App</p>
                         </div>
                         <div class="wrapper">				
@@ -361,7 +370,7 @@ div#google_translate_element {
                     <div class="content">
                         <img src="https://th.bing.com/th/id/OIP.JwO3AOGs4Jt0vLBRquIsrQHaFj?w=640&h=480&rs=1&pid=ImgDetMain" class="profession_image" alt="Profession">
                         <div class="profile_detail">
-                            <span>appnest</span>
+                            <!-- <span>appnest</span> -->
                             <p>E-commerce</p>
                         </div>
                         <div class="wrapper">				
@@ -532,9 +541,9 @@ div#google_translate_element {
 
         </main>
           <div class="list__item flex">
-            <img src="https://images.unsplash.com/photo-1681068634386-50f0e81f50cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80">
-            <div class="list__item__title">my Services</div>
-            <div class="list__item__titleOutline">my Services</div>
+            <img src="/img/services.png">
+            <div class="list__item__title">our Services</div>
+            <div class="list__item__titleOutline">our Services</div>
            
             <div class="list__item__type">WEBSITE</div>
             <div class="list__item__project">PORTFOLIO</div>
@@ -565,7 +574,7 @@ div#google_translate_element {
                 
                   <h2 class="h3-mktg mb-4 text-medium js-build-in-item build-in-slideX-left"
                   style="transition-delay: 300ms;">
-                  <span class="text-accent-primary d-block" style="color: #2091d0;" >my services</span> 
+                  <span class="text-accent-primary d-block" style="color: #2091d0;" >our services</span> 
                   Some information about                      </h2>
               </div>
             </div>
@@ -575,7 +584,7 @@ div#google_translate_element {
   <main id="pc_lap">
          
     <div class="grid_photo" data-aos="zoom-out" >
-      <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-1.webp);"></div>
+      <div class="photo_grid" style="background-image: url(/img/Applications-development.png);"></div>
       <div class="text_grid">
           <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
               <div class="content-wrapper">
@@ -606,11 +615,11 @@ div#google_translate_element {
               </div>
           </div>
       </div>
-      <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-2.webp);"></div>
+      <div class="photo_grid" style="background-image: url(/img/⁠E-commerce.png);"></div>
 
   </div>
   <div class="grid_photo" data-aos="zoom-out">
-      <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-3.webp);"></div>
+      <div class="photo_grid" style="background-image: url(/img/applications-management.png);"></div>
       <div class="text_grid">
           <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
               <div class="content-wrapper">
@@ -640,11 +649,11 @@ div#google_translate_element {
               </div>
           </div>
       </div>
-      <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-4.webp);"></div>
+      <div class="photo_grid" style="background-image: url(/img/web-development.png);"></div>
 
   </div>
   <div class="grid_photo" data-aos="zoom-out">
-      <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-5.webp);"></div>
+      <div class="photo_grid" style="background-image: url(/img/⁠graphic-design.png);"></div>
       <div class="text_grid">
           <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
               <div class="content-wrapper">
@@ -674,7 +683,7 @@ div#google_translate_element {
               </div>
           </div>
       </div>
-      <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-5.webp);"></div>
+      <div class="photo_grid" style="background-image: url(/img/⁠security-and-protection.png);"></div>
 
   </div>
 
@@ -684,7 +693,7 @@ div#google_translate_element {
   <main id="pc_phone" style="display: none;">
          
     <div class="grid_photo" data-aos="zoom-out" >
-      <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-1.webp);"></div>
+      <div class="photo_grid" style="background-image: url(/img/Applications-development.png);"></div>
       <div class="text_grid">
           <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
               <div class="content-wrapper">
@@ -701,7 +710,7 @@ div#google_translate_element {
       </div>
   </div>
   <div class="grid_photo" data-aos="zoom-out">
-    <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-2.webp);"></div>
+    <div class="photo_grid" style="background-image: url(/img/⁠E-commerce.png);"></div>
 
       <div class="text_grid">
           <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
@@ -720,7 +729,7 @@ div#google_translate_element {
 
   </div>
   <div class="grid_photo" data-aos="zoom-out">
-      <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-3.webp);"></div>
+      <div class="photo_grid" style="background-image: url(/img/applications-management.png);"></div>
       <div class="text_grid">
           <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
               <div class="content-wrapper">
@@ -737,7 +746,7 @@ div#google_translate_element {
       </div>
   </div>
   <div class="grid_photo" data-aos="zoom-out">
-    <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-4.webp);"></div>
+    <div class="photo_grid" style="background-image: url(/img/web-development.png);"></div>
 
       <div class="text_grid">
           <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
@@ -755,7 +764,7 @@ div#google_translate_element {
 
   </div>
   <div class="grid_photo" data-aos="zoom-out">
-      <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-5.webp);"></div>
+      <div class="photo_grid" style="background-image: url(/img/⁠graphic-design.png);"></div>
       <div class="text_grid">
           <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
               <div class="content-wrapper">
@@ -772,7 +781,7 @@ div#google_translate_element {
       </div>
   </div>
   <div class="grid_photo" data-aos="zoom-out">
-    <div class="photo_grid" style="background-image: url(https://www.frontendmentor.io/static/images/home-benefit-5.webp);"></div>
+    <div class="photo_grid" style="background-image: url(/img/⁠security-and-protection.png);"></div>
 
       <div class="text_grid">
           <div class="OrderedFeature__Wrapper-sc-14fod4b-0 dvSwxQ">
@@ -794,7 +803,7 @@ div#google_translate_element {
   </main>
 <!--  -->
           <div class="list__item flex">
-            <img src="https://images.unsplash.com/photo-1680978560866-481aff9fd6f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80">
+            <img src="/img/Contact-us.png">
             <div class="list__item__title">contact us</div>
             <div class="list__item__titleOutline">contact us</div>
             
@@ -1086,6 +1095,7 @@ items.forEach(item => {
                   display: grid;
                   grid-template-columns: 1fr 1fr ;
                   height: 85vh;
+                  gap: 50px;
               }
               .text_grid {
               display: flex;
@@ -1107,7 +1117,7 @@ items.forEach(item => {
               width: 7rem;
               margin-bottom: 2vh;
           }
-              .photo_grid{background-size: contain; background-position: center center;background-repeat: no-repeat; }
+              .photo_grid{background-size: cover; background-position: center center;background-repeat: no-repeat; border-radius: 10px;margin: 20px;}
           </style>
           
           
@@ -1520,6 +1530,12 @@ section.container {
 }div#About_Us,div#my_services,div#productivity {
     margin-top: 0 !important;
 }
+
+
+.letter{
+  letter-spacing: 2px;
+    text-transform: capitalize;
+}  
                         }
 
 
