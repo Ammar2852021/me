@@ -1,217 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <footer class="footer-main bg-dark fixed-bottom">
-  <div class="container">
-    <div class="row address-main">
-      <div class="col-lg-4 col-sm-12 col-xs-12">
-        <div class="address-box clearfix">
-          <div class="add-icon">
-            <img src="Img/footer-icon-01.png" alt="" />
-          </div>
-          <div class="add-content">
-            <h5>Address</h5>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-			sed do eiusmod tempor incididunt ut veniam </p>
-          </div>
+  <header class="header_nav">
+    <a href="" class="logo"><img style="width: 130px;" src="/me/img/1200x630-02.png" alt=""></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li> <a href="#Home_One">Home</a></li>
+      <li> <a href="#About_Us">About us</a></li>
+      <li><a href="#my_services">our services</a></li>
+      <li><a href="#contact_us">Contact us</a>
+      </li>
+      <div id="google_translate_element"></div>
+      <main>
+        <div class="toggle-container">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-brightness-high" viewBox="0 0 16 16">
+            <path
+              d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708" />
+          </svg>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon"
+            viewBox="0 0 16 16">
+            <path
+              d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286" />
+          </svg>
         </div>
-      </div>
-      <div class="col-lg-4 col-sm-12 col-xs-12">
-        <div class="address-box clearfix">
-          <div class="add-icon">
-            <img src="Img/footer-icon-02.png" alt="" />
-          </div>
-          <div class="add-content">
-            <h5>Phone</h5>
-            <p>  +(91) 000000000 <br />
-            +(91) 000000000  </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-12 col-xs-12">
-        <div class="address-box clearfix">
-          <div class="add-icon">
-            <img src="Img/footer-icon-03.png" alt="" />
-          </div>
-          <div class="add-content">
-            <h5>Email</h5>
-            <p> <a href="mailto:" style="text-decoration:none">collab@codewithfaraz.com</a> </p>
-          </div>
-        </div>
-      </div>
-    </div>
-</div>
+      </main>
+      <div class="darkCircle"></div>
+      <div class="lightCircle grow"></div>
+    </ul>
+  </header>
+
+  <style>
 
 
-<!-- Copyright Footer -->
-<footer class="bg-dark text-center text-white">
 
-<!-- Grid container -->
-<div class="container p-4 pb-0">
-  <!-- Section: Social media -->
-  <section class="mb-4">
-    <!-- Facebook -->
-    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-      ><i class="fa fa-facebook-f"></i
-    ></a>
+/* header */
 
-    <!-- Twitter -->
-    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-      ><i class="fa fa-twitter"></i
-    ></a>
-
-    <!-- Google -->
-    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-      ><i class="fa fa-google"></i
-    ></a>
-
-    <!-- Instagram -->
-    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-      ><i class="fa fa-instagram"></i
-    ></a>
-
-  </section>
-  <!-- Section: Social media -->
-</div>
-<!-- Grid container -->
-
-<!-- Copyright -->
-<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    appnest.online © 2024 All Code Ammar Ahmed 
-</div>
-<!-- Copyright -->
-</footer>
-</footer>
-
-
-<style>
-    .footer-main{
-    padding-top: 90px;
+.header_nav {
+  background-color: #fff;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
 }
 
-.address-main > div.col-lg-4 {
-    border-bottom: dotted 1px #999;
+.header_nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
 }
-.address-box {
-    padding: 10px 0;
-    margin-bottom: 30px;
+
+.header_nav li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
 }
-.add-icon{
+
+.header_nav li a:hover,
+.header_nav .menu-btn:hover {
+  background-color: #f4f4f4;
+}
+
+.header_nav .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* menu */
+
+.header_nav .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header_nav .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header_nav .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header_nav .menu-icon .navicon:before,
+.header_nav .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header_nav .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header_nav .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header_nav .menu-btn {
+  display: none;
+}
+
+.header_nav .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header_nav .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header_nav .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header_nav .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header_nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header_nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header_nav li {
     float: left;
-    width: 60px;
-    display: inline-block;
-    padding: 0px 5px;
-}
-.address-box .add-icon {
-    background: #27303b;
-    height: 75px;
-    line-height: 75px;
-    width: 75px;
-    margin-right: 20px;
-    text-align: center;
-}
-.add-icon img{
-    width: 100%;
-}
-.address-box .add-icon img {
-    max-width: 40px;
-}
-.add-content{
-    padding-left: 70px;
-}
-.add-content h5 {
-    font-size: 17px;
-    color: #ffffff;
-    padding: 0;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-.add-content p {
-    font-size: 13px;
-    color: #999999;
-    font-weight: 300;
-}
-.add-content p a{
-    font-size: 14px;
-    color: #999999;
-    font-weight: 300;
-    word-wrap: break-word;
-}
-.add-content p a:hover{
-    color: #ffb32d;
-}
-.footer-main{
-    padding-top: 90px;
+  }
+  .header_nav li a {
+    padding: 20px 30px;
+  }
+  .header_nav .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header_nav .menu-icon {
+    display: none;
+  }
 }
 
-.address-main > div.col-lg-4 {
-    border-bottom: dotted 1px #999;
-}
-.address-box {
-    padding: 10px 0;
-    margin-bottom: 30px;
-}
-.add-icon{
-    float: left;
-    width: 60px;
-    display: inline-block;
-    padding: 0px 5px;
-}
-.address-box .add-icon {
-    background: #27303b;
-    height: 75px;
-    line-height: 75px;
-    width: 75px;
-    margin-right: 20px;
-    text-align: center;
-}
-.add-icon img{
-    width: 100%;
-}
-.address-box .add-icon img {
-    max-width: 40px;
-}
-.add-content{
-    padding-left: 70px;
-}
-.add-content h5 {
-    font-size: 17px;
-    color: #ffffff;
-    padding: 0;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-.add-content p {
-    font-size: 13px;
-    color: #999999;
-    font-weight: 300;
-}
-.add-content p a{
-    font-size: 14px;
-    color: #999999;
-    font-weight: 300;
-    word-wrap: break-word;
-}
-.add-content p a:hover{
-    color: #ffb32d;
-}
-</style>
-
-
-
-
-
-
-
-    
+  </style>
+  
 </body>
 </html>
