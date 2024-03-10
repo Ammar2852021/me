@@ -131165,7 +131165,8 @@ div#productivity {
 
                     
                         button.submit-btn.w-btn.w-btn--s2 {
-    background: black;
+    background: #FFF;
+    color:black;
 }
                         .ag-courses-item_link:hover,
                         .ag-courses-item_link:hover .ag-courses-item_date {

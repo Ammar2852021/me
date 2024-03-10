@@ -929,6 +929,7 @@ main {
   color: var(--text-color);
   text-align: center;
   transform: translate(-50%, -50%);
+  /* width: 100%; */
 }
 
 .list__item__titleOutline {
@@ -1345,7 +1346,7 @@ items.forEach(item => {
                       <div class="group">
                         <div class="control">
                           <button class="submit-btn w-btn w-btn--s2" type="button"
-                            onclick="window._contactFormValidation(this)" style="color: white !important;">Send</button>
+                            onclick="window._contactFormValidation(this)" style="color: black !important;">Send</button>
                         </div>
                       </div>
                     </form>
@@ -1524,9 +1525,7 @@ section.container {
 }
 #pc_phone{display: block !important;}
 .link_nav {
-    display: flex;
-    gap: 4vw;
-    align-items: center;
+    gap: 1vw;
 }div#About_Us,div#my_services,div#productivity {
     margin-top: 0 !important;
 }
@@ -1535,7 +1534,12 @@ section.container {
 .letter{
   letter-spacing: 2px;
     text-transform: capitalize;
-}  
+}  .Spacer__Wrapper-sc-1qmp1cv-0.Stack__Wrapper-sc-11gzqgt-0.dRXKLO.gpVveu {
+    margin: 20px;
+}
+
+
+.text_grid{margin-bottom: 3vh;}
                         }
 
 
@@ -1827,15 +1831,15 @@ animation-timing-function: ease-in-out;
 }
 
 .dark {
---background-color: rgb(27, 27, 27);
---background-color-2: rgb(27, 27, 27);
+--background-color:rgb(4 23 39);
+--background-color-2: rgb(4 23 39);
 --text-color: #fff;
 }
 
 .light {
---background-color: #ffffff;
---background-color-2: #F4F7FD;
---text-color: #000000;
+  --background-color:rgb(18 76 126);
+--background-color-2: rgb(18 76 126);
+--text-color: #fff;
 }
 p{font-size:larger !important }
 input ,textarea {
